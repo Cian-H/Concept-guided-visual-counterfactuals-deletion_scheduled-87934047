@@ -49,15 +49,15 @@ fallback:
 # classifier core (M=50): CAVs, calibration, response sweep, CAV-stability
 python scripts/sweep.py --M 50 --phases cavs,calib,response,stability \
   --chexpert-root /data/chexpert --nih-root /data/nih_raw \
-  --ark-weights /path/to/Ark+SwinL768_ChestX-ray14_ft.pth.tar --out sweep_m50
+  --ark-weights /path/to/Ark+SwinL768_ChestX-ray14_ft.pth.tar --out results/raw
 
 # image metrics (M=20, reuses the M=50 CAVs): FRD + IoU
 python scripts/sweep.py --M 20 --phases frd,iou \
   --nih-root /data/nih_raw \
-  --ark-weights /path/to/Ark+SwinL768_ChestX-ray14_ft.pth.tar --out sweep_m50
+  --ark-weights /path/to/Ark+SwinL768_ChestX-ray14_ft.pth.tar --out results/raw
 
-# tables + figures (CPU; reads sweep output, writes results/)
-python scripts/analyze.py --sweep sweep_m50 --out results
+# tables + figures (CPU; reads results/raw/, writes results/tables + results/figs)
+python scripts/analyze.py --sweep results/raw --out results
 ```
 
 Subset any axis for quick runs, e.g.
@@ -65,6 +65,8 @@ Subset any axis for quick runs, e.g.
 checkpoints to its output file, so reruns skip completed work.
 
 `results/` in this repo is the committed reference output of the commands above.
+Without a GPU you can regenerate every table and figure from the committed
+`results/raw/` using just the final `analyze.py` command above.
 
 ## Layout
 
