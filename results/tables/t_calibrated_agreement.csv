@@ -1,0 +1,101 @@
+dataset,backbone,conv,method,pathology,XRV_curtail,XRV_exaggerate,Ark+_curtail,Ark+_exaggerate,agree_curtail,agree_exaggerate
+CheXpert,AE,na,LR,Atelectasis,-0.005,0.009,-0.004,0.006,False,False
+CheXpert,AE,na,LR,Cardiomegaly,-0.061,0.032,-0.046,0.049,False,False
+CheXpert,AE,na,LR,Consolidation,-0.033,0.022,-0.003,0.017,False,False
+CheXpert,AE,na,LR,Edema,0.0,0.0,-0.001,0.018,False,False
+CheXpert,AE,na,LR,Pleural Effusion,-0.076,0.024,-0.027,0.01,False,False
+CheXpert,AE,na,MD,Atelectasis,-0.025,0.018,-0.019,0.013,False,False
+CheXpert,AE,na,MD,Cardiomegaly,-0.099,0.052,-0.104,0.074,True,True
+CheXpert,AE,na,MD,Consolidation,-0.071,0.028,-0.038,0.045,False,False
+CheXpert,AE,na,MD,Edema,-0.002,0.001,-0.04,0.036,False,False
+CheXpert,AE,na,MD,Pleural Effusion,-0.109,0.035,-0.047,0.016,False,False
+CheXpert,SD,scaled,LR,Atelectasis,-0.038,0.056,-0.283,-0.145,False,False
+CheXpert,SD,scaled,LR,Cardiomegaly,-0.211,0.26,-0.379,-0.0,True,False
+CheXpert,SD,scaled,LR,Consolidation,0.005,0.477,-0.263,0.264,False,True
+CheXpert,SD,scaled,LR,Edema,0.112,0.367,-0.307,0.067,False,True
+CheXpert,SD,scaled,LR,Pleural Effusion,-0.133,0.174,-0.346,0.127,True,True
+CheXpert,SD,scaled,MD,Atelectasis,-0.059,0.117,-0.243,-0.049,True,False
+CheXpert,SD,scaled,MD,Cardiomegaly,-0.294,0.275,-0.305,0.221,True,True
+CheXpert,SD,scaled,MD,Consolidation,-0.282,0.553,-0.237,0.538,True,True
+CheXpert,SD,scaled,MD,Edema,-0.178,0.424,-0.399,0.252,True,True
+CheXpert,SD,scaled,MD,Pleural Effusion,-0.204,0.339,-0.411,0.347,True,True
+CheXpert,SD,unscaled,LR,Atelectasis,0.022,0.083,-0.206,-0.09,False,False
+CheXpert,SD,unscaled,LR,Cardiomegaly,-0.097,0.221,-0.309,-0.003,True,False
+CheXpert,SD,unscaled,LR,Consolidation,0.07,0.415,-0.223,0.214,False,True
+CheXpert,SD,unscaled,LR,Edema,0.168,0.336,-0.279,0.038,False,False
+CheXpert,SD,unscaled,LR,Pleural Effusion,-0.039,0.183,-0.239,0.158,False,True
+CheXpert,SD,unscaled,MD,Atelectasis,-0.036,0.083,-0.175,-0.008,False,False
+CheXpert,SD,unscaled,MD,Cardiomegaly,-0.218,0.23,-0.192,0.177,True,True
+CheXpert,SD,unscaled,MD,Consolidation,-0.201,0.411,-0.185,0.442,True,True
+CheXpert,SD,unscaled,MD,Edema,-0.15,0.297,-0.294,0.252,True,True
+CheXpert,SD,unscaled,MD,Pleural Effusion,-0.164,0.247,-0.308,0.234,True,True
+CheXpert,SDXL,scaled,LR,Atelectasis,-0.107,0.017,-0.255,-0.102,True,False
+CheXpert,SDXL,scaled,LR,Cardiomegaly,-0.287,0.163,-0.394,-0.012,True,False
+CheXpert,SDXL,scaled,LR,Consolidation,-0.136,0.444,-0.302,0.371,True,True
+CheXpert,SDXL,scaled,LR,Edema,-0.063,0.254,0.038,0.473,False,True
+CheXpert,SDXL,scaled,LR,Pleural Effusion,-0.304,0.189,-0.529,0.114,True,True
+CheXpert,SDXL,scaled,MD,Atelectasis,-0.09,0.101,-0.289,-0.102,True,False
+CheXpert,SDXL,scaled,MD,Cardiomegaly,-0.32,0.251,-0.539,0.051,True,True
+CheXpert,SDXL,scaled,MD,Consolidation,-0.343,0.549,-0.515,0.278,True,True
+CheXpert,SDXL,scaled,MD,Edema,-0.183,0.307,-0.08,0.498,True,True
+CheXpert,SDXL,scaled,MD,Pleural Effusion,-0.266,0.359,-0.584,0.213,True,True
+CheXpert,SDXL,unscaled,LR,Atelectasis,0.0,0.056,-0.259,-0.122,False,False
+CheXpert,SDXL,unscaled,LR,Cardiomegaly,-0.108,0.158,-0.437,-0.126,True,False
+CheXpert,SDXL,unscaled,LR,Consolidation,0.006,0.339,-0.282,0.125,False,True
+CheXpert,SDXL,unscaled,LR,Edema,0.014,0.178,-0.07,0.289,False,True
+CheXpert,SDXL,unscaled,LR,Pleural Effusion,-0.132,0.118,-0.447,0.009,True,False
+CheXpert,SDXL,unscaled,MD,Atelectasis,-0.042,0.061,-0.272,-0.105,False,False
+CheXpert,SDXL,unscaled,MD,Cardiomegaly,-0.208,0.217,-0.44,-0.08,True,False
+CheXpert,SDXL,unscaled,MD,Consolidation,-0.17,0.375,-0.264,0.287,True,True
+CheXpert,SDXL,unscaled,MD,Edema,-0.128,0.175,-0.324,0.135,True,True
+CheXpert,SDXL,unscaled,MD,Pleural Effusion,-0.193,0.217,-0.338,0.188,True,True
+NIH,AE,na,LR,Atelectasis,-0.019,0.127,-0.021,0.048,False,False
+NIH,AE,na,LR,Cardiomegaly,-0.212,0.191,-0.073,0.082,True,True
+NIH,AE,na,LR,Consolidation,-0.013,0.038,-0.027,0.019,False,False
+NIH,AE,na,LR,Edema,-0.122,0.091,-0.054,0.042,True,False
+NIH,AE,na,LR,Pleural Effusion,0.01,0.085,-0.026,0.026,False,False
+NIH,AE,na,MD,Atelectasis,-0.069,0.188,-0.065,0.068,True,True
+NIH,AE,na,MD,Cardiomegaly,-0.208,0.194,-0.103,0.083,True,True
+NIH,AE,na,MD,Consolidation,-0.075,0.12,-0.054,0.024,True,False
+NIH,AE,na,MD,Edema,-0.199,0.131,-0.081,0.063,True,True
+NIH,AE,na,MD,Pleural Effusion,-0.095,0.213,-0.104,0.058,True,True
+NIH,SD,scaled,LR,Atelectasis,0.026,0.286,-0.372,0.17,False,True
+NIH,SD,scaled,LR,Cardiomegaly,-0.069,0.447,-0.316,0.145,True,True
+NIH,SD,scaled,LR,Consolidation,0.079,0.539,-0.205,0.15,False,True
+NIH,SD,scaled,LR,Edema,-0.091,0.664,-0.628,0.181,True,True
+NIH,SD,scaled,LR,Pleural Effusion,0.001,0.417,-0.136,0.429,False,True
+NIH,SD,scaled,MD,Atelectasis,-0.03,0.287,-0.345,0.317,False,True
+NIH,SD,scaled,MD,Cardiomegaly,-0.192,0.277,-0.162,0.122,True,True
+NIH,SD,scaled,MD,Consolidation,-0.099,0.445,-0.048,0.465,False,True
+NIH,SD,scaled,MD,Edema,-0.136,0.36,-0.131,0.235,True,True
+NIH,SD,scaled,MD,Pleural Effusion,0.021,0.495,-0.291,0.563,False,True
+NIH,SD,unscaled,LR,Atelectasis,-0.022,0.281,-0.301,0.164,False,True
+NIH,SD,unscaled,LR,Cardiomegaly,-0.154,0.382,-0.282,0.109,True,True
+NIH,SD,unscaled,LR,Consolidation,0.078,0.417,-0.162,0.145,False,True
+NIH,SD,unscaled,LR,Edema,-0.053,0.534,-0.518,0.152,True,True
+NIH,SD,unscaled,LR,Pleural Effusion,-0.008,0.366,-0.125,0.364,False,True
+NIH,SD,unscaled,MD,Atelectasis,-0.028,0.246,-0.246,0.298,False,True
+NIH,SD,unscaled,MD,Cardiomegaly,-0.201,0.256,-0.107,0.096,True,True
+NIH,SD,unscaled,MD,Consolidation,-0.077,0.38,-0.011,0.35,False,True
+NIH,SD,unscaled,MD,Edema,-0.097,0.279,-0.069,0.151,True,True
+NIH,SD,unscaled,MD,Pleural Effusion,-0.01,0.467,-0.226,0.51,False,True
+NIH,SDXL,scaled,LR,Atelectasis,0.047,0.383,-0.396,0.15,False,True
+NIH,SDXL,scaled,LR,Cardiomegaly,0.03,0.505,-0.296,0.205,False,True
+NIH,SDXL,scaled,LR,Consolidation,0.059,0.607,-0.156,0.333,False,True
+NIH,SDXL,scaled,LR,Edema,-0.087,0.692,-0.25,0.594,True,True
+NIH,SDXL,scaled,LR,Pleural Effusion,0.054,0.523,-0.272,0.356,False,True
+NIH,SDXL,scaled,MD,Atelectasis,0.056,0.338,-0.497,0.168,False,True
+NIH,SDXL,scaled,MD,Cardiomegaly,-0.082,0.273,-0.443,0.114,True,True
+NIH,SDXL,scaled,MD,Consolidation,-0.034,0.456,-0.399,0.277,False,True
+NIH,SDXL,scaled,MD,Edema,-0.031,0.311,-0.514,0.35,False,True
+NIH,SDXL,scaled,MD,Pleural Effusion,0.07,0.482,-0.467,0.38,False,True
+NIH,SDXL,unscaled,LR,Atelectasis,0.004,0.309,-0.424,0.03,False,False
+NIH,SDXL,unscaled,LR,Cardiomegaly,-0.164,0.351,-0.384,0.081,True,True
+NIH,SDXL,unscaled,LR,Consolidation,0.082,0.413,-0.201,0.145,False,True
+NIH,SDXL,unscaled,LR,Edema,-0.047,0.488,-0.266,0.338,False,True
+NIH,SDXL,unscaled,LR,Pleural Effusion,0.01,0.376,-0.289,0.087,False,True
+NIH,SDXL,unscaled,MD,Atelectasis,0.012,0.232,-0.387,0.119,False,True
+NIH,SDXL,unscaled,MD,Cardiomegaly,-0.176,0.247,-0.375,0.026,True,False
+NIH,SDXL,unscaled,MD,Consolidation,-0.041,0.386,-0.331,0.169,False,True
+NIH,SDXL,unscaled,MD,Edema,-0.041,0.224,-0.294,0.206,False,True
+NIH,SDXL,unscaled,MD,Pleural Effusion,0.006,0.472,-0.304,0.269,False,True

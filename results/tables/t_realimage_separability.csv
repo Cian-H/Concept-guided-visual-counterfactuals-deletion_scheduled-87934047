@@ -1,0 +1,11 @@
+dataset,pathology,xrv_auroc,ark_auroc,gap_xrv_buggy,gap_xrv_uncal,gap_xrv_platt,gap_ark_uncal,gap_ark_platt
+CheXpert,Cardiomegaly,0.843,0.825,0.0676,0.2977,0.3568,0.0593,0.3211
+CheXpert,Edema,0.864,0.848,0.0519,0.2338,0.4137,0.0104,0.3736
+CheXpert,Consolidation,0.912,0.94,0.0792,0.3491,0.5263,0.0627,0.6168
+CheXpert,Atelectasis,0.691,0.745,0.0293,0.1309,0.1264,0.1157,0.1842
+CheXpert,Pleural Effusion,0.926,0.952,0.093,0.4126,0.5725,0.3089,0.6628
+NIH,Cardiomegaly,0.865,0.858,0.0715,0.294,0.4123,0.1077,0.4038
+NIH,Edema,0.949,0.978,0.0709,0.2887,0.6493,0.1184,0.7922
+NIH,Consolidation,0.844,0.89,0.0608,0.2504,0.3625,0.062,0.4683
+NIH,Atelectasis,0.818,0.898,0.055,0.2264,0.3022,0.2493,0.4876
+NIH,Pleural Effusion,0.907,0.947,0.098,0.4075,0.5306,0.3248,0.6631

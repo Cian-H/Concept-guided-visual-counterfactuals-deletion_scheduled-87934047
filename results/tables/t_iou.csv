@@ -1,0 +1,61 @@
+backbone,conv,method,pathology,direction,n,iou_mean
+AE,na,LR,Cardiomegaly,curtail,20,0.245
+AE,na,LR,Cardiomegaly,exaggerate,20,0.22
+AE,na,LR,Atelectasis,curtail,20,0.0321
+AE,na,LR,Atelectasis,exaggerate,20,0.0355
+AE,na,LR,Pleural Effusion,curtail,20,0.0181
+AE,na,LR,Pleural Effusion,exaggerate,20,0.0193
+AE,na,MD,Cardiomegaly,curtail,20,0.0369
+AE,na,MD,Cardiomegaly,exaggerate,20,0.0229
+AE,na,MD,Atelectasis,curtail,20,0.0102
+AE,na,MD,Atelectasis,exaggerate,20,0.005
+AE,na,MD,Pleural Effusion,curtail,20,0.0337
+AE,na,MD,Pleural Effusion,exaggerate,20,0.0302
+SD,scaled,LR,Cardiomegaly,curtail,20,0.1948
+SD,scaled,LR,Cardiomegaly,exaggerate,20,0.1599
+SD,scaled,LR,Atelectasis,curtail,20,0.0259
+SD,scaled,LR,Atelectasis,exaggerate,20,0.0245
+SD,scaled,LR,Pleural Effusion,curtail,20,0.0245
+SD,scaled,LR,Pleural Effusion,exaggerate,20,0.0222
+SD,scaled,MD,Cardiomegaly,curtail,20,0.0259
+SD,scaled,MD,Cardiomegaly,exaggerate,20,0.0176
+SD,scaled,MD,Atelectasis,curtail,20,0.0079
+SD,scaled,MD,Atelectasis,exaggerate,20,0.002
+SD,scaled,MD,Pleural Effusion,curtail,20,0.0299
+SD,scaled,MD,Pleural Effusion,exaggerate,20,0.0309
+SD,unscaled,LR,Cardiomegaly,curtail,20,0.2038
+SD,unscaled,LR,Cardiomegaly,exaggerate,20,0.176
+SD,unscaled,LR,Atelectasis,curtail,20,0.0258
+SD,unscaled,LR,Atelectasis,exaggerate,20,0.0246
+SD,unscaled,LR,Pleural Effusion,curtail,20,0.0239
+SD,unscaled,LR,Pleural Effusion,exaggerate,20,0.0217
+SD,unscaled,MD,Cardiomegaly,curtail,20,0.0247
+SD,unscaled,MD,Cardiomegaly,exaggerate,20,0.0164
+SD,unscaled,MD,Atelectasis,curtail,20,0.0067
+SD,unscaled,MD,Atelectasis,exaggerate,20,0.0016
+SD,unscaled,MD,Pleural Effusion,curtail,20,0.0301
+SD,unscaled,MD,Pleural Effusion,exaggerate,20,0.0307
+SDXL,scaled,LR,Cardiomegaly,curtail,20,0.2085
+SDXL,scaled,LR,Cardiomegaly,exaggerate,20,0.1896
+SDXL,scaled,LR,Atelectasis,curtail,20,0.0265
+SDXL,scaled,LR,Atelectasis,exaggerate,20,0.0235
+SDXL,scaled,LR,Pleural Effusion,curtail,20,0.0297
+SDXL,scaled,LR,Pleural Effusion,exaggerate,20,0.0286
+SDXL,scaled,MD,Cardiomegaly,curtail,20,0.03
+SDXL,scaled,MD,Cardiomegaly,exaggerate,20,0.0364
+SDXL,scaled,MD,Atelectasis,curtail,20,0.0094
+SDXL,scaled,MD,Atelectasis,exaggerate,20,0.0025
+SDXL,scaled,MD,Pleural Effusion,curtail,20,0.0285
+SDXL,scaled,MD,Pleural Effusion,exaggerate,20,0.0339
+SDXL,unscaled,LR,Cardiomegaly,curtail,20,0.2264
+SDXL,unscaled,LR,Cardiomegaly,exaggerate,20,0.2176
+SDXL,unscaled,LR,Atelectasis,curtail,20,0.0266
+SDXL,unscaled,LR,Atelectasis,exaggerate,20,0.0245
+SDXL,unscaled,LR,Pleural Effusion,curtail,20,0.0287
+SDXL,unscaled,LR,Pleural Effusion,exaggerate,20,0.0281
+SDXL,unscaled,MD,Cardiomegaly,curtail,20,0.0298
+SDXL,unscaled,MD,Cardiomegaly,exaggerate,20,0.0307
+SDXL,unscaled,MD,Atelectasis,curtail,20,0.006
+SDXL,unscaled,MD,Atelectasis,exaggerate,20,0.0025
+SDXL,unscaled,MD,Pleural Effusion,curtail,20,0.031
+SDXL,unscaled,MD,Pleural Effusion,exaggerate,20,0.0327

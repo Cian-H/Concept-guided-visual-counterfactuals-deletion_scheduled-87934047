@@ -1,0 +1,21 @@
+clf,dataset,pathology,a,b,T_only,nll_raw,nll_platt,nll_temp,post_Ppos,post_Pneg
+XRV,CheXpert,Cardiomegaly,0.727,0.254,1.39,0.51,0.49,0.496,0.678,0.322
+Ark+,CheXpert,Cardiomegaly,0.844,3.566,10.17,1.66,0.511,0.669,0.661,0.339
+XRV,CheXpert,Edema,1.14,-0.249,0.92,0.456,0.451,0.456,0.707,0.293
+Ark+,CheXpert,Edema,1.321,7.303,19.85,2.384,0.476,0.683,0.687,0.313
+XRV,CheXpert,Consolidation,1.038,0.751,1.05,0.412,0.378,0.411,0.763,0.237
+Ark+,CheXpert,Consolidation,2.183,8.669,7.92,1.471,0.311,0.661,0.808,0.192
+XRV,CheXpert,Atelectasis,0.524,-0.311,2.27,0.699,0.624,0.633,0.563,0.437
+Ark+,CheXpert,Atelectasis,0.744,1.397,4.58,0.903,0.593,0.661,0.592,0.408
+XRV,CheXpert,Pleural Effusion,1.118,-0.332,0.93,0.35,0.343,0.349,0.786,0.214
+Ark+,CheXpert,Pleural Effusion,1.58,3.698,2.43,0.674,0.28,0.55,0.831,0.169
+XRV,NIH,Cardiomegaly,0.735,3.289,7.9,1.55,0.454,0.643,0.706,0.294
+Ark+,NIH,Cardiomegaly,0.663,2.929,7.52,1.494,0.463,0.639,0.702,0.298
+XRV,NIH,Edema,1.106,7.128,10.65,2.154,0.286,0.64,0.825,0.175
+Ark+,NIH,Edema,1.517,7.996,6.46,1.442,0.181,0.6,0.896,0.104
+XRV,NIH,Consolidation,1.146,4.232,9.2,1.482,0.492,0.671,0.681,0.319
+Ark+,NIH,Consolidation,1.265,5.204,8.64,1.562,0.418,0.661,0.734,0.266
+XRV,NIH,Atelectasis,0.972,2.877,6.64,1.204,0.518,0.661,0.651,0.349
+Ark+,NIH,Atelectasis,1.087,2.808,3.41,0.844,0.401,0.596,0.744,0.256
+XRV,NIH,Pleural Effusion,1.121,3.848,4.53,1.055,0.384,0.614,0.765,0.235
+Ark+,NIH,Pleural Effusion,1.251,4.114,3.3,0.825,0.287,0.558,0.832,0.168

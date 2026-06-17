@@ -1,0 +1,1001 @@
+dataset,backbone,conv,method,pathology,classifier,calibration,direction,N,CPS,CFR
+CheXpert,AE,na,LR,Atelectasis,Ark+,platt,curtail,50,-0.0123,0.0
+CheXpert,AE,na,LR,Atelectasis,Ark+,platt,exaggerate,50,0.015,0.0
+CheXpert,AE,na,LR,Atelectasis,Ark+,uncal,curtail,50,-0.0041,0.0
+CheXpert,AE,na,LR,Atelectasis,Ark+,uncal,exaggerate,50,0.0052,0.0
+CheXpert,AE,na,LR,Atelectasis,XRV,buggy,curtail,50,-0.0037,0.0
+CheXpert,AE,na,LR,Atelectasis,XRV,buggy,exaggerate,50,0.005,0.0
+CheXpert,AE,na,LR,Atelectasis,XRV,platt,curtail,50,-0.0111,0.0
+CheXpert,AE,na,LR,Atelectasis,XRV,platt,exaggerate,50,0.0116,0.0
+CheXpert,AE,na,LR,Atelectasis,XRV,uncal,curtail,50,-0.0154,4.0
+CheXpert,AE,na,LR,Atelectasis,XRV,uncal,exaggerate,50,0.0208,6.0
+CheXpert,AE,na,LR,Cardiomegaly,Ark+,platt,curtail,50,-0.0584,32.0
+CheXpert,AE,na,LR,Cardiomegaly,Ark+,platt,exaggerate,50,0.0529,12.0
+CheXpert,AE,na,LR,Cardiomegaly,Ark+,uncal,curtail,50,-0.009,0.0
+CheXpert,AE,na,LR,Cardiomegaly,Ark+,uncal,exaggerate,50,0.0043,0.0
+CheXpert,AE,na,LR,Cardiomegaly,XRV,buggy,curtail,50,-0.0153,0.0
+CheXpert,AE,na,LR,Cardiomegaly,XRV,buggy,exaggerate,50,0.0192,2.0
+CheXpert,AE,na,LR,Cardiomegaly,XRV,platt,curtail,50,-0.0676,34.0
+CheXpert,AE,na,LR,Cardiomegaly,XRV,platt,exaggerate,50,0.0332,6.0
+CheXpert,AE,na,LR,Cardiomegaly,XRV,uncal,curtail,50,-0.0649,22.0
+CheXpert,AE,na,LR,Cardiomegaly,XRV,uncal,exaggerate,50,0.079,26.0
+CheXpert,AE,na,LR,Consolidation,Ark+,platt,curtail,50,-0.0265,6.0
+CheXpert,AE,na,LR,Consolidation,Ark+,platt,exaggerate,50,0.0236,4.0
+CheXpert,AE,na,LR,Consolidation,Ark+,uncal,curtail,50,-0.0008,0.0
+CheXpert,AE,na,LR,Consolidation,Ark+,uncal,exaggerate,50,0.0008,0.0
+CheXpert,AE,na,LR,Consolidation,XRV,buggy,curtail,50,-0.0045,0.0
+CheXpert,AE,na,LR,Consolidation,XRV,buggy,exaggerate,50,0.0155,0.0
+CheXpert,AE,na,LR,Consolidation,XRV,platt,curtail,50,-0.0426,16.0
+CheXpert,AE,na,LR,Consolidation,XRV,platt,exaggerate,50,0.0219,6.0
+CheXpert,AE,na,LR,Consolidation,XRV,uncal,curtail,50,-0.0193,4.0
+CheXpert,AE,na,LR,Consolidation,XRV,uncal,exaggerate,50,0.0636,22.0
+CheXpert,AE,na,LR,Edema,Ark+,platt,curtail,50,-0.0166,0.0
+CheXpert,AE,na,LR,Edema,Ark+,platt,exaggerate,50,0.0241,0.0
+CheXpert,AE,na,LR,Edema,Ark+,uncal,curtail,50,-0.0002,0.0
+CheXpert,AE,na,LR,Edema,Ark+,uncal,exaggerate,50,0.0002,0.0
+CheXpert,AE,na,LR,Edema,XRV,buggy,curtail,50,-0.0022,0.0
+CheXpert,AE,na,LR,Edema,XRV,buggy,exaggerate,50,0.0035,0.0
+CheXpert,AE,na,LR,Edema,XRV,platt,curtail,50,-0.0005,0.0
+CheXpert,AE,na,LR,Edema,XRV,platt,exaggerate,50,0.0003,0.0
+CheXpert,AE,na,LR,Edema,XRV,uncal,curtail,50,-0.0088,2.0
+CheXpert,AE,na,LR,Edema,XRV,uncal,exaggerate,50,0.0142,6.0
+CheXpert,AE,na,LR,Pleural Effusion,Ark+,platt,curtail,50,-0.036,8.0
+CheXpert,AE,na,LR,Pleural Effusion,Ark+,platt,exaggerate,50,0.0142,2.0
+CheXpert,AE,na,LR,Pleural Effusion,Ark+,uncal,curtail,50,-0.0058,0.0
+CheXpert,AE,na,LR,Pleural Effusion,Ark+,uncal,exaggerate,50,0.0027,0.0
+CheXpert,AE,na,LR,Pleural Effusion,XRV,buggy,curtail,50,-0.0148,0.0
+CheXpert,AE,na,LR,Pleural Effusion,XRV,buggy,exaggerate,50,0.0162,2.0
+CheXpert,AE,na,LR,Pleural Effusion,XRV,platt,curtail,50,-0.0807,38.0
+CheXpert,AE,na,LR,Pleural Effusion,XRV,platt,exaggerate,50,0.0244,8.0
+CheXpert,AE,na,LR,Pleural Effusion,XRV,uncal,curtail,50,-0.0643,26.0
+CheXpert,AE,na,LR,Pleural Effusion,XRV,uncal,exaggerate,50,0.0667,26.0
+CheXpert,AE,na,MD,Atelectasis,Ark+,platt,curtail,50,-0.0253,4.0
+CheXpert,AE,na,MD,Atelectasis,Ark+,platt,exaggerate,50,0.0233,2.0
+CheXpert,AE,na,MD,Atelectasis,Ark+,uncal,curtail,50,-0.0083,0.0
+CheXpert,AE,na,MD,Atelectasis,Ark+,uncal,exaggerate,50,0.0081,0.0
+CheXpert,AE,na,MD,Atelectasis,XRV,buggy,curtail,50,-0.0095,0.0
+CheXpert,AE,na,MD,Atelectasis,XRV,buggy,exaggerate,50,0.0086,0.0
+CheXpert,AE,na,MD,Atelectasis,XRV,platt,curtail,50,-0.0296,4.0
+CheXpert,AE,na,MD,Atelectasis,XRV,platt,exaggerate,50,0.0205,0.0
+CheXpert,AE,na,MD,Atelectasis,XRV,uncal,curtail,50,-0.0399,12.0
+CheXpert,AE,na,MD,Atelectasis,XRV,uncal,exaggerate,50,0.036,12.0
+CheXpert,AE,na,MD,Cardiomegaly,Ark+,platt,curtail,50,-0.1089,52.0
+CheXpert,AE,na,MD,Cardiomegaly,Ark+,platt,exaggerate,50,0.0788,30.0
+CheXpert,AE,na,MD,Cardiomegaly,Ark+,uncal,curtail,50,-0.0145,2.0
+CheXpert,AE,na,MD,Cardiomegaly,Ark+,uncal,exaggerate,50,0.0067,0.0
+CheXpert,AE,na,MD,Cardiomegaly,XRV,buggy,curtail,50,-0.0246,0.0
+CheXpert,AE,na,MD,Cardiomegaly,XRV,buggy,exaggerate,50,0.0226,0.0
+CheXpert,AE,na,MD,Cardiomegaly,XRV,platt,curtail,50,-0.1015,44.0
+CheXpert,AE,na,MD,Cardiomegaly,XRV,platt,exaggerate,50,0.0541,18.0
+CheXpert,AE,na,MD,Cardiomegaly,XRV,uncal,curtail,50,-0.1039,38.0
+CheXpert,AE,na,MD,Cardiomegaly,XRV,uncal,exaggerate,50,0.0933,42.0
+CheXpert,AE,na,MD,Consolidation,Ark+,platt,curtail,50,-0.0483,20.0
+CheXpert,AE,na,MD,Consolidation,Ark+,platt,exaggerate,50,0.0489,14.0
+CheXpert,AE,na,MD,Consolidation,Ark+,uncal,curtail,50,-0.0015,0.0
+CheXpert,AE,na,MD,Consolidation,Ark+,uncal,exaggerate,50,0.0015,0.0
+CheXpert,AE,na,MD,Consolidation,XRV,buggy,curtail,50,-0.0113,0.0
+CheXpert,AE,na,MD,Consolidation,XRV,buggy,exaggerate,50,0.02,0.0
+CheXpert,AE,na,MD,Consolidation,XRV,platt,curtail,50,-0.0734,26.0
+CheXpert,AE,na,MD,Consolidation,XRV,platt,exaggerate,50,0.0289,8.0
+CheXpert,AE,na,MD,Consolidation,XRV,uncal,curtail,50,-0.0476,16.0
+CheXpert,AE,na,MD,Consolidation,XRV,uncal,exaggerate,50,0.0818,32.0
+CheXpert,AE,na,MD,Edema,Ark+,platt,curtail,50,-0.0489,20.0
+CheXpert,AE,na,MD,Edema,Ark+,platt,exaggerate,50,0.04,6.0
+CheXpert,AE,na,MD,Edema,Ark+,uncal,curtail,50,-0.0004,0.0
+CheXpert,AE,na,MD,Edema,Ark+,uncal,exaggerate,50,0.0003,0.0
+CheXpert,AE,na,MD,Edema,XRV,buggy,curtail,50,-0.0094,0.0
+CheXpert,AE,na,MD,Edema,XRV,buggy,exaggerate,50,0.005,0.0
+CheXpert,AE,na,MD,Edema,XRV,platt,curtail,50,-0.0023,0.0
+CheXpert,AE,na,MD,Edema,XRV,platt,exaggerate,50,0.0008,0.0
+CheXpert,AE,na,MD,Edema,XRV,uncal,curtail,50,-0.038,6.0
+CheXpert,AE,na,MD,Edema,XRV,uncal,exaggerate,50,0.0202,6.0
+CheXpert,AE,na,MD,Pleural Effusion,Ark+,platt,curtail,50,-0.0501,10.0
+CheXpert,AE,na,MD,Pleural Effusion,Ark+,platt,exaggerate,50,0.0187,4.0
+CheXpert,AE,na,MD,Pleural Effusion,Ark+,uncal,curtail,50,-0.0081,0.0
+CheXpert,AE,na,MD,Pleural Effusion,Ark+,uncal,exaggerate,50,0.0034,0.0
+CheXpert,AE,na,MD,Pleural Effusion,XRV,buggy,curtail,50,-0.0227,0.0
+CheXpert,AE,na,MD,Pleural Effusion,XRV,buggy,exaggerate,50,0.0215,0.0
+CheXpert,AE,na,MD,Pleural Effusion,XRV,platt,curtail,50,-0.1178,46.0
+CheXpert,AE,na,MD,Pleural Effusion,XRV,platt,exaggerate,50,0.0351,10.0
+CheXpert,AE,na,MD,Pleural Effusion,XRV,uncal,curtail,50,-0.0984,44.0
+CheXpert,AE,na,MD,Pleural Effusion,XRV,uncal,exaggerate,50,0.0888,32.0
+CheXpert,SD,scaled,LR,Atelectasis,Ark+,platt,curtail,50,-0.2862,86.0
+CheXpert,SD,scaled,LR,Atelectasis,Ark+,platt,exaggerate,50,0.0164,22.0
+CheXpert,SD,scaled,LR,Atelectasis,Ark+,uncal,curtail,50,-0.2086,74.0
+CheXpert,SD,scaled,LR,Atelectasis,Ark+,uncal,exaggerate,50,-0.0146,0.0
+CheXpert,SD,scaled,LR,Atelectasis,XRV,buggy,curtail,50,-0.008,0.0
+CheXpert,SD,scaled,LR,Atelectasis,XRV,buggy,exaggerate,50,0.0287,14.0
+CheXpert,SD,scaled,LR,Atelectasis,XRV,platt,curtail,50,-0.049,38.0
+CheXpert,SD,scaled,LR,Atelectasis,XRV,platt,exaggerate,50,0.0982,40.0
+CheXpert,SD,scaled,LR,Atelectasis,XRV,uncal,curtail,50,-0.0383,30.0
+CheXpert,SD,scaled,LR,Atelectasis,XRV,uncal,exaggerate,50,0.1255,40.0
+CheXpert,SD,scaled,LR,Cardiomegaly,Ark+,platt,curtail,50,-0.3885,86.0
+CheXpert,SD,scaled,LR,Cardiomegaly,Ark+,platt,exaggerate,50,0.0874,48.0
+CheXpert,SD,scaled,LR,Cardiomegaly,Ark+,uncal,curtail,50,-0.1121,34.0
+CheXpert,SD,scaled,LR,Cardiomegaly,Ark+,uncal,exaggerate,50,0.0026,0.0
+CheXpert,SD,scaled,LR,Cardiomegaly,XRV,buggy,curtail,50,-0.0341,0.0
+CheXpert,SD,scaled,LR,Cardiomegaly,XRV,buggy,exaggerate,50,0.0602,22.0
+CheXpert,SD,scaled,LR,Cardiomegaly,XRV,platt,curtail,50,-0.2236,72.0
+CheXpert,SD,scaled,LR,Cardiomegaly,XRV,platt,exaggerate,50,0.2717,90.0
+CheXpert,SD,scaled,LR,Cardiomegaly,XRV,uncal,curtail,50,-0.156,66.0
+CheXpert,SD,scaled,LR,Cardiomegaly,XRV,uncal,exaggerate,50,0.2594,80.0
+CheXpert,SD,scaled,LR,Consolidation,Ark+,platt,curtail,50,-0.2803,78.0
+CheXpert,SD,scaled,LR,Consolidation,Ark+,platt,exaggerate,50,0.2933,82.0
+CheXpert,SD,scaled,LR,Consolidation,Ark+,uncal,curtail,50,-0.0429,6.0
+CheXpert,SD,scaled,LR,Consolidation,Ark+,uncal,exaggerate,50,0.0105,0.0
+CheXpert,SD,scaled,LR,Consolidation,XRV,buggy,curtail,50,-0.0049,0.0
+CheXpert,SD,scaled,LR,Consolidation,XRV,buggy,exaggerate,50,0.0739,26.0
+CheXpert,SD,scaled,LR,Consolidation,XRV,platt,curtail,50,-0.0378,26.0
+CheXpert,SD,scaled,LR,Consolidation,XRV,platt,exaggerate,50,0.4815,94.0
+CheXpert,SD,scaled,LR,Consolidation,XRV,uncal,curtail,50,-0.0237,14.0
+CheXpert,SD,scaled,LR,Consolidation,XRV,uncal,exaggerate,50,0.3187,92.0
+CheXpert,SD,scaled,LR,Edema,Ark+,platt,curtail,50,-0.3229,86.0
+CheXpert,SD,scaled,LR,Edema,Ark+,platt,exaggerate,50,0.1039,52.0
+CheXpert,SD,scaled,LR,Edema,Ark+,uncal,curtail,50,-0.0099,0.0
+CheXpert,SD,scaled,LR,Edema,Ark+,uncal,exaggerate,50,0.0007,0.0
+CheXpert,SD,scaled,LR,Edema,XRV,buggy,curtail,50,0.0034,0.0
+CheXpert,SD,scaled,LR,Edema,XRV,buggy,exaggerate,50,0.0727,28.0
+CheXpert,SD,scaled,LR,Edema,XRV,platt,curtail,50,0.0181,20.0
+CheXpert,SD,scaled,LR,Edema,XRV,platt,exaggerate,50,0.3784,92.0
+CheXpert,SD,scaled,LR,Edema,XRV,uncal,curtail,50,0.0141,6.0
+CheXpert,SD,scaled,LR,Edema,XRV,uncal,exaggerate,50,0.3147,92.0
+CheXpert,SD,scaled,LR,Pleural Effusion,Ark+,platt,curtail,50,-0.3498,88.0
+CheXpert,SD,scaled,LR,Pleural Effusion,Ark+,platt,exaggerate,50,0.2002,80.0
+CheXpert,SD,scaled,LR,Pleural Effusion,Ark+,uncal,curtail,50,-0.2217,76.0
+CheXpert,SD,scaled,LR,Pleural Effusion,Ark+,uncal,exaggerate,50,0.0363,2.0
+CheXpert,SD,scaled,LR,Pleural Effusion,XRV,buggy,curtail,50,-0.0153,0.0
+CheXpert,SD,scaled,LR,Pleural Effusion,XRV,buggy,exaggerate,50,0.0559,16.0
+CheXpert,SD,scaled,LR,Pleural Effusion,XRV,platt,curtail,50,-0.1581,56.0
+CheXpert,SD,scaled,LR,Pleural Effusion,XRV,platt,exaggerate,50,0.2131,74.0
+CheXpert,SD,scaled,LR,Pleural Effusion,XRV,uncal,curtail,50,-0.0726,38.0
+CheXpert,SD,scaled,LR,Pleural Effusion,XRV,uncal,exaggerate,50,0.2388,72.0
+CheXpert,SD,scaled,MD,Atelectasis,Ark+,platt,curtail,50,-0.2451,88.0
+CheXpert,SD,scaled,MD,Atelectasis,Ark+,platt,exaggerate,50,0.0478,24.0
+CheXpert,SD,scaled,MD,Atelectasis,Ark+,uncal,curtail,50,-0.1915,72.0
+CheXpert,SD,scaled,MD,Atelectasis,Ark+,uncal,exaggerate,50,0.0168,6.0
+CheXpert,SD,scaled,MD,Atelectasis,XRV,buggy,curtail,50,-0.0146,0.0
+CheXpert,SD,scaled,MD,Atelectasis,XRV,buggy,exaggerate,50,0.0348,14.0
+CheXpert,SD,scaled,MD,Atelectasis,XRV,platt,curtail,50,-0.0709,36.0
+CheXpert,SD,scaled,MD,Atelectasis,XRV,platt,exaggerate,50,0.1284,50.0
+CheXpert,SD,scaled,MD,Atelectasis,XRV,uncal,curtail,50,-0.0668,30.0
+CheXpert,SD,scaled,MD,Atelectasis,XRV,uncal,exaggerate,50,0.153,40.0
+CheXpert,SD,scaled,MD,Cardiomegaly,Ark+,platt,curtail,50,-0.3085,92.0
+CheXpert,SD,scaled,MD,Cardiomegaly,Ark+,platt,exaggerate,50,0.2325,76.0
+CheXpert,SD,scaled,MD,Cardiomegaly,Ark+,uncal,curtail,50,-0.1062,30.0
+CheXpert,SD,scaled,MD,Cardiomegaly,Ark+,uncal,exaggerate,50,0.0239,2.0
+CheXpert,SD,scaled,MD,Cardiomegaly,XRV,buggy,curtail,50,-0.0491,2.0
+CheXpert,SD,scaled,MD,Cardiomegaly,XRV,buggy,exaggerate,50,0.0634,20.0
+CheXpert,SD,scaled,MD,Cardiomegaly,XRV,platt,curtail,50,-0.301,84.0
+CheXpert,SD,scaled,MD,Cardiomegaly,XRV,platt,exaggerate,50,0.2922,90.0
+CheXpert,SD,scaled,MD,Cardiomegaly,XRV,uncal,curtail,50,-0.2203,84.0
+CheXpert,SD,scaled,MD,Cardiomegaly,XRV,uncal,exaggerate,50,0.274,88.0
+CheXpert,SD,scaled,MD,Consolidation,Ark+,platt,curtail,50,-0.2497,78.0
+CheXpert,SD,scaled,MD,Consolidation,Ark+,platt,exaggerate,50,0.5443,96.0
+CheXpert,SD,scaled,MD,Consolidation,Ark+,uncal,curtail,50,-0.0401,6.0
+CheXpert,SD,scaled,MD,Consolidation,Ark+,uncal,exaggerate,50,0.0419,8.0
+CheXpert,SD,scaled,MD,Consolidation,XRV,buggy,curtail,50,-0.0316,0.0
+CheXpert,SD,scaled,MD,Consolidation,XRV,buggy,exaggerate,50,0.082,36.0
+CheXpert,SD,scaled,MD,Consolidation,XRV,platt,curtail,50,-0.2893,82.0
+CheXpert,SD,scaled,MD,Consolidation,XRV,platt,exaggerate,50,0.5533,98.0
+CheXpert,SD,scaled,MD,Consolidation,XRV,uncal,curtail,50,-0.1432,74.0
+CheXpert,SD,scaled,MD,Consolidation,XRV,uncal,exaggerate,50,0.3552,96.0
+CheXpert,SD,scaled,MD,Edema,Ark+,platt,curtail,50,-0.4003,94.0
+CheXpert,SD,scaled,MD,Edema,Ark+,platt,exaggerate,50,0.2907,86.0
+CheXpert,SD,scaled,MD,Edema,Ark+,uncal,curtail,50,-0.0106,0.0
+CheXpert,SD,scaled,MD,Edema,Ark+,uncal,exaggerate,50,0.0034,0.0
+CheXpert,SD,scaled,MD,Edema,XRV,buggy,curtail,50,-0.0225,0.0
+CheXpert,SD,scaled,MD,Edema,XRV,buggy,exaggerate,50,0.0772,26.0
+CheXpert,SD,scaled,MD,Edema,XRV,platt,curtail,50,-0.1973,72.0
+CheXpert,SD,scaled,MD,Edema,XRV,platt,exaggerate,50,0.4296,88.0
+CheXpert,SD,scaled,MD,Edema,XRV,uncal,curtail,50,-0.1015,46.0
+CheXpert,SD,scaled,MD,Edema,XRV,uncal,exaggerate,50,0.3364,92.0
+CheXpert,SD,scaled,MD,Pleural Effusion,Ark+,platt,curtail,50,-0.4139,88.0
+CheXpert,SD,scaled,MD,Pleural Effusion,Ark+,platt,exaggerate,50,0.3483,78.0
+CheXpert,SD,scaled,MD,Pleural Effusion,Ark+,uncal,curtail,50,-0.2249,72.0
+CheXpert,SD,scaled,MD,Pleural Effusion,Ark+,uncal,exaggerate,50,0.0867,42.0
+CheXpert,SD,scaled,MD,Pleural Effusion,XRV,buggy,curtail,50,-0.0256,0.0
+CheXpert,SD,scaled,MD,Pleural Effusion,XRV,buggy,exaggerate,50,0.0726,34.0
+CheXpert,SD,scaled,MD,Pleural Effusion,XRV,platt,curtail,50,-0.2343,76.0
+CheXpert,SD,scaled,MD,Pleural Effusion,XRV,platt,exaggerate,50,0.3496,92.0
+CheXpert,SD,scaled,MD,Pleural Effusion,XRV,uncal,curtail,50,-0.1187,58.0
+CheXpert,SD,scaled,MD,Pleural Effusion,XRV,uncal,exaggerate,50,0.3144,80.0
+CheXpert,SD,unscaled,LR,Atelectasis,Ark+,platt,curtail,50,-0.2083,78.0
+CheXpert,SD,unscaled,LR,Atelectasis,Ark+,platt,exaggerate,50,0.0251,18.0
+CheXpert,SD,unscaled,LR,Atelectasis,Ark+,uncal,curtail,50,-0.1768,62.0
+CheXpert,SD,unscaled,LR,Atelectasis,Ark+,uncal,exaggerate,50,-0.0032,0.0
+CheXpert,SD,unscaled,LR,Atelectasis,XRV,buggy,curtail,50,-0.0015,0.0
+CheXpert,SD,unscaled,LR,Atelectasis,XRV,buggy,exaggerate,50,0.0273,8.0
+CheXpert,SD,unscaled,LR,Atelectasis,XRV,platt,curtail,50,-0.0142,8.0
+CheXpert,SD,unscaled,LR,Atelectasis,XRV,platt,exaggerate,50,0.0944,38.0
+CheXpert,SD,unscaled,LR,Atelectasis,XRV,uncal,curtail,50,-0.0077,0.0
+CheXpert,SD,unscaled,LR,Atelectasis,XRV,uncal,exaggerate,50,0.1194,42.0
+CheXpert,SD,unscaled,LR,Cardiomegaly,Ark+,platt,curtail,50,-0.3105,82.0
+CheXpert,SD,unscaled,LR,Cardiomegaly,Ark+,platt,exaggerate,50,0.0717,40.0
+CheXpert,SD,unscaled,LR,Cardiomegaly,Ark+,uncal,curtail,50,-0.1068,32.0
+CheXpert,SD,unscaled,LR,Cardiomegaly,Ark+,uncal,exaggerate,50,0.0027,0.0
+CheXpert,SD,unscaled,LR,Cardiomegaly,XRV,buggy,curtail,50,-0.0197,0.0
+CheXpert,SD,unscaled,LR,Cardiomegaly,XRV,buggy,exaggerate,50,0.0538,22.0
+CheXpert,SD,unscaled,LR,Cardiomegaly,XRV,platt,curtail,50,-0.1248,52.0
+CheXpert,SD,unscaled,LR,Cardiomegaly,XRV,platt,exaggerate,50,0.2254,88.0
+CheXpert,SD,unscaled,LR,Cardiomegaly,XRV,uncal,curtail,50,-0.0913,42.0
+CheXpert,SD,unscaled,LR,Cardiomegaly,XRV,uncal,exaggerate,50,0.2305,78.0
+CheXpert,SD,unscaled,LR,Consolidation,Ark+,platt,curtail,50,-0.2294,70.0
+CheXpert,SD,unscaled,LR,Consolidation,Ark+,platt,exaggerate,50,0.2346,66.0
+CheXpert,SD,unscaled,LR,Consolidation,Ark+,uncal,curtail,50,-0.0396,6.0
+CheXpert,SD,unscaled,LR,Consolidation,Ark+,uncal,exaggerate,50,0.0084,0.0
+CheXpert,SD,unscaled,LR,Consolidation,XRV,buggy,curtail,50,-0.0001,0.0
+CheXpert,SD,unscaled,LR,Consolidation,XRV,buggy,exaggerate,50,0.0665,20.0
+CheXpert,SD,unscaled,LR,Consolidation,XRV,platt,curtail,50,-0.0022,4.0
+CheXpert,SD,unscaled,LR,Consolidation,XRV,platt,exaggerate,50,0.4148,90.0
+CheXpert,SD,unscaled,LR,Consolidation,XRV,uncal,curtail,50,-0.0008,2.0
+CheXpert,SD,unscaled,LR,Consolidation,XRV,uncal,exaggerate,50,0.2849,90.0
+CheXpert,SD,unscaled,LR,Edema,Ark+,platt,curtail,50,-0.2881,76.0
+CheXpert,SD,unscaled,LR,Edema,Ark+,platt,exaggerate,50,0.0806,42.0
+CheXpert,SD,unscaled,LR,Edema,Ark+,uncal,curtail,50,-0.0095,0.0
+CheXpert,SD,unscaled,LR,Edema,Ark+,uncal,exaggerate,50,0.0005,0.0
+CheXpert,SD,unscaled,LR,Edema,XRV,buggy,curtail,50,0.0032,0.0
+CheXpert,SD,unscaled,LR,Edema,XRV,buggy,exaggerate,50,0.0683,28.0
+CheXpert,SD,unscaled,LR,Edema,XRV,platt,curtail,50,0.0226,8.0
+CheXpert,SD,unscaled,LR,Edema,XRV,platt,exaggerate,50,0.3381,90.0
+CheXpert,SD,unscaled,LR,Edema,XRV,uncal,curtail,50,0.0141,0.0
+CheXpert,SD,unscaled,LR,Edema,XRV,uncal,exaggerate,50,0.2948,88.0
+CheXpert,SD,unscaled,LR,Pleural Effusion,Ark+,platt,curtail,50,-0.2474,78.0
+CheXpert,SD,unscaled,LR,Pleural Effusion,Ark+,platt,exaggerate,50,0.1904,70.0
+CheXpert,SD,unscaled,LR,Pleural Effusion,Ark+,uncal,curtail,50,-0.1898,72.0
+CheXpert,SD,unscaled,LR,Pleural Effusion,Ark+,uncal,exaggerate,50,0.0359,2.0
+CheXpert,SD,unscaled,LR,Pleural Effusion,XRV,buggy,curtail,50,-0.0078,0.0
+CheXpert,SD,unscaled,LR,Pleural Effusion,XRV,buggy,exaggerate,50,0.0481,6.0
+CheXpert,SD,unscaled,LR,Pleural Effusion,XRV,platt,curtail,50,-0.0815,32.0
+CheXpert,SD,unscaled,LR,Pleural Effusion,XRV,platt,exaggerate,50,0.1888,68.0
+CheXpert,SD,unscaled,LR,Pleural Effusion,XRV,uncal,curtail,50,-0.0372,22.0
+CheXpert,SD,unscaled,LR,Pleural Effusion,XRV,uncal,exaggerate,50,0.2056,72.0
+CheXpert,SD,unscaled,MD,Atelectasis,Ark+,platt,curtail,50,-0.177,76.0
+CheXpert,SD,unscaled,MD,Atelectasis,Ark+,platt,exaggerate,50,0.0455,18.0
+CheXpert,SD,unscaled,MD,Atelectasis,Ark+,uncal,curtail,50,-0.1557,58.0
+CheXpert,SD,unscaled,MD,Atelectasis,Ark+,uncal,exaggerate,50,0.0191,6.0
+CheXpert,SD,unscaled,MD,Atelectasis,XRV,buggy,curtail,50,-0.0098,0.0
+CheXpert,SD,unscaled,MD,Atelectasis,XRV,buggy,exaggerate,50,0.0269,12.0
+CheXpert,SD,unscaled,MD,Atelectasis,XRV,platt,curtail,50,-0.0465,14.0
+CheXpert,SD,unscaled,MD,Atelectasis,XRV,platt,exaggerate,50,0.0893,32.0
+CheXpert,SD,unscaled,MD,Atelectasis,XRV,uncal,curtail,50,-0.0446,12.0
+CheXpert,SD,unscaled,MD,Atelectasis,XRV,uncal,exaggerate,50,0.1166,28.0
+CheXpert,SD,unscaled,MD,Cardiomegaly,Ark+,platt,curtail,50,-0.1935,78.0
+CheXpert,SD,unscaled,MD,Cardiomegaly,Ark+,platt,exaggerate,50,0.1846,72.0
+CheXpert,SD,unscaled,MD,Cardiomegaly,Ark+,uncal,curtail,50,-0.0879,30.0
+CheXpert,SD,unscaled,MD,Cardiomegaly,Ark+,uncal,exaggerate,50,0.0177,0.0
+CheXpert,SD,unscaled,MD,Cardiomegaly,XRV,buggy,curtail,50,-0.0368,2.0
+CheXpert,SD,unscaled,MD,Cardiomegaly,XRV,buggy,exaggerate,50,0.0553,20.0
+CheXpert,SD,unscaled,MD,Cardiomegaly,XRV,platt,curtail,50,-0.222,80.0
+CheXpert,SD,unscaled,MD,Cardiomegaly,XRV,platt,exaggerate,50,0.239,86.0
+CheXpert,SD,unscaled,MD,Cardiomegaly,XRV,uncal,curtail,50,-0.1662,78.0
+CheXpert,SD,unscaled,MD,Cardiomegaly,XRV,uncal,exaggerate,50,0.2378,88.0
+CheXpert,SD,unscaled,MD,Consolidation,Ark+,platt,curtail,50,-0.1953,70.0
+CheXpert,SD,unscaled,MD,Consolidation,Ark+,platt,exaggerate,50,0.4438,92.0
+CheXpert,SD,unscaled,MD,Consolidation,Ark+,uncal,curtail,50,-0.0348,6.0
+CheXpert,SD,unscaled,MD,Consolidation,Ark+,uncal,exaggerate,50,0.0279,4.0
+CheXpert,SD,unscaled,MD,Consolidation,XRV,buggy,curtail,50,-0.0234,0.0
+CheXpert,SD,unscaled,MD,Consolidation,XRV,buggy,exaggerate,50,0.066,24.0
+CheXpert,SD,unscaled,MD,Consolidation,XRV,platt,curtail,50,-0.2099,72.0
+CheXpert,SD,unscaled,MD,Consolidation,XRV,platt,exaggerate,50,0.412,94.0
+CheXpert,SD,unscaled,MD,Consolidation,XRV,uncal,curtail,50,-0.1067,52.0
+CheXpert,SD,unscaled,MD,Consolidation,XRV,uncal,exaggerate,50,0.2829,94.0
+CheXpert,SD,unscaled,MD,Edema,Ark+,platt,curtail,50,-0.2945,94.0
+CheXpert,SD,unscaled,MD,Edema,Ark+,platt,exaggerate,50,0.2655,80.0
+CheXpert,SD,unscaled,MD,Edema,Ark+,uncal,curtail,50,-0.0094,0.0
+CheXpert,SD,unscaled,MD,Edema,Ark+,uncal,exaggerate,50,0.0033,0.0
+CheXpert,SD,unscaled,MD,Edema,XRV,buggy,curtail,50,-0.0187,0.0
+CheXpert,SD,unscaled,MD,Edema,XRV,buggy,exaggerate,50,0.0636,24.0
+CheXpert,SD,unscaled,MD,Edema,XRV,platt,curtail,50,-0.1632,64.0
+CheXpert,SD,unscaled,MD,Edema,XRV,platt,exaggerate,50,0.3005,78.0
+CheXpert,SD,unscaled,MD,Edema,XRV,uncal,curtail,50,-0.0844,40.0
+CheXpert,SD,unscaled,MD,Edema,XRV,uncal,exaggerate,50,0.2743,92.0
+CheXpert,SD,unscaled,MD,Pleural Effusion,Ark+,platt,curtail,50,-0.3097,80.0
+CheXpert,SD,unscaled,MD,Pleural Effusion,Ark+,platt,exaggerate,50,0.2349,70.0
+CheXpert,SD,unscaled,MD,Pleural Effusion,Ark+,uncal,curtail,50,-0.1885,66.0
+CheXpert,SD,unscaled,MD,Pleural Effusion,Ark+,uncal,exaggerate,50,0.0549,14.0
+CheXpert,SD,unscaled,MD,Pleural Effusion,XRV,buggy,curtail,50,-0.0202,0.0
+CheXpert,SD,unscaled,MD,Pleural Effusion,XRV,buggy,exaggerate,50,0.0582,22.0
+CheXpert,SD,unscaled,MD,Pleural Effusion,XRV,platt,curtail,50,-0.1813,68.0
+CheXpert,SD,unscaled,MD,Pleural Effusion,XRV,platt,exaggerate,50,0.2481,74.0
+CheXpert,SD,unscaled,MD,Pleural Effusion,XRV,uncal,curtail,50,-0.0935,42.0
+CheXpert,SD,unscaled,MD,Pleural Effusion,XRV,uncal,exaggerate,50,0.2502,70.0
+CheXpert,SDXL,scaled,LR,Atelectasis,Ark+,platt,curtail,50,-0.2812,90.0
+CheXpert,SDXL,scaled,LR,Atelectasis,Ark+,platt,exaggerate,50,-0.0419,28.0
+CheXpert,SDXL,scaled,LR,Atelectasis,Ark+,uncal,curtail,50,-0.2027,72.0
+CheXpert,SDXL,scaled,LR,Atelectasis,Ark+,uncal,exaggerate,50,-0.0752,0.0
+CheXpert,SDXL,scaled,LR,Atelectasis,XRV,buggy,curtail,50,-0.0234,0.0
+CheXpert,SDXL,scaled,LR,Atelectasis,XRV,buggy,exaggerate,50,0.0254,10.0
+CheXpert,SDXL,scaled,LR,Atelectasis,XRV,platt,curtail,50,-0.1131,50.0
+CheXpert,SDXL,scaled,LR,Atelectasis,XRV,platt,exaggerate,50,0.0759,32.0
+CheXpert,SDXL,scaled,LR,Atelectasis,XRV,uncal,curtail,50,-0.1073,52.0
+CheXpert,SDXL,scaled,LR,Atelectasis,XRV,uncal,exaggerate,50,0.109,30.0
+CheXpert,SDXL,scaled,LR,Cardiomegaly,Ark+,platt,curtail,50,-0.494,98.0
+CheXpert,SDXL,scaled,LR,Cardiomegaly,Ark+,platt,exaggerate,50,0.009,46.0
+CheXpert,SDXL,scaled,LR,Cardiomegaly,Ark+,uncal,curtail,50,-0.1145,34.0
+CheXpert,SDXL,scaled,LR,Cardiomegaly,Ark+,uncal,exaggerate,50,-0.011,0.0
+CheXpert,SDXL,scaled,LR,Cardiomegaly,XRV,buggy,curtail,50,-0.0436,2.0
+CheXpert,SDXL,scaled,LR,Cardiomegaly,XRV,buggy,exaggerate,50,0.0499,22.0
+CheXpert,SDXL,scaled,LR,Cardiomegaly,XRV,platt,curtail,50,-0.2923,76.0
+CheXpert,SDXL,scaled,LR,Cardiomegaly,XRV,platt,exaggerate,50,0.2115,84.0
+CheXpert,SDXL,scaled,LR,Cardiomegaly,XRV,uncal,curtail,50,-0.1967,72.0
+CheXpert,SDXL,scaled,LR,Cardiomegaly,XRV,uncal,exaggerate,50,0.2125,66.0
+CheXpert,SDXL,scaled,LR,Consolidation,Ark+,platt,curtail,50,-0.3909,98.0
+CheXpert,SDXL,scaled,LR,Consolidation,Ark+,platt,exaggerate,50,0.3813,90.0
+CheXpert,SDXL,scaled,LR,Consolidation,Ark+,uncal,curtail,50,-0.0573,14.0
+CheXpert,SDXL,scaled,LR,Consolidation,Ark+,uncal,exaggerate,50,0.0118,0.0
+CheXpert,SDXL,scaled,LR,Consolidation,XRV,buggy,curtail,50,-0.0174,0.0
+CheXpert,SDXL,scaled,LR,Consolidation,XRV,buggy,exaggerate,50,0.0713,22.0
+CheXpert,SDXL,scaled,LR,Consolidation,XRV,platt,curtail,50,-0.1582,60.0
+CheXpert,SDXL,scaled,LR,Consolidation,XRV,platt,exaggerate,50,0.4561,98.0
+CheXpert,SDXL,scaled,LR,Consolidation,XRV,uncal,curtail,50,-0.08,38.0
+CheXpert,SDXL,scaled,LR,Consolidation,XRV,uncal,exaggerate,50,0.306,92.0
+CheXpert,SDXL,scaled,LR,Edema,Ark+,platt,curtail,50,-0.2558,74.0
+CheXpert,SDXL,scaled,LR,Edema,Ark+,platt,exaggerate,50,0.4744,98.0
+CheXpert,SDXL,scaled,LR,Edema,Ark+,uncal,curtail,50,-0.012,0.0
+CheXpert,SDXL,scaled,LR,Edema,Ark+,uncal,exaggerate,50,0.0066,0.0
+CheXpert,SDXL,scaled,LR,Edema,XRV,buggy,curtail,50,-0.0087,0.0
+CheXpert,SDXL,scaled,LR,Edema,XRV,buggy,exaggerate,50,0.068,28.0
+CheXpert,SDXL,scaled,LR,Edema,XRV,platt,curtail,50,-0.0923,44.0
+CheXpert,SDXL,scaled,LR,Edema,XRV,platt,exaggerate,50,0.2774,94.0
+CheXpert,SDXL,scaled,LR,Edema,XRV,uncal,curtail,50,-0.0401,30.0
+CheXpert,SDXL,scaled,LR,Edema,XRV,uncal,exaggerate,50,0.2903,86.0
+CheXpert,SDXL,scaled,LR,Pleural Effusion,Ark+,platt,curtail,50,-0.5622,96.0
+CheXpert,SDXL,scaled,LR,Pleural Effusion,Ark+,platt,exaggerate,50,0.1568,70.0
+CheXpert,SDXL,scaled,LR,Pleural Effusion,Ark+,uncal,curtail,50,-0.2786,82.0
+CheXpert,SDXL,scaled,LR,Pleural Effusion,Ark+,uncal,exaggerate,50,0.021,0.0
+CheXpert,SDXL,scaled,LR,Pleural Effusion,XRV,buggy,curtail,50,-0.034,0.0
+CheXpert,SDXL,scaled,LR,Pleural Effusion,XRV,buggy,exaggerate,50,0.059,26.0
+CheXpert,SDXL,scaled,LR,Pleural Effusion,XRV,platt,curtail,50,-0.3149,80.0
+CheXpert,SDXL,scaled,LR,Pleural Effusion,XRV,platt,exaggerate,50,0.2221,72.0
+CheXpert,SDXL,scaled,LR,Pleural Effusion,XRV,uncal,curtail,50,-0.1569,78.0
+CheXpert,SDXL,scaled,LR,Pleural Effusion,XRV,uncal,exaggerate,50,0.2517,72.0
+CheXpert,SDXL,scaled,MD,Atelectasis,Ark+,platt,curtail,50,-0.3139,90.0
+CheXpert,SDXL,scaled,MD,Atelectasis,Ark+,platt,exaggerate,50,0.0133,32.0
+CheXpert,SDXL,scaled,MD,Atelectasis,Ark+,uncal,curtail,50,-0.2123,70.0
+CheXpert,SDXL,scaled,MD,Atelectasis,Ark+,uncal,exaggerate,50,-0.0332,2.0
+CheXpert,SDXL,scaled,MD,Atelectasis,XRV,buggy,curtail,50,-0.0216,0.0
+CheXpert,SDXL,scaled,MD,Atelectasis,XRV,buggy,exaggerate,50,0.0336,14.0
+CheXpert,SDXL,scaled,MD,Atelectasis,XRV,platt,curtail,50,-0.1016,46.0
+CheXpert,SDXL,scaled,MD,Atelectasis,XRV,platt,exaggerate,50,0.116,36.0
+CheXpert,SDXL,scaled,MD,Atelectasis,XRV,uncal,curtail,50,-0.0987,46.0
+CheXpert,SDXL,scaled,MD,Atelectasis,XRV,uncal,exaggerate,50,0.1467,36.0
+CheXpert,SDXL,scaled,MD,Cardiomegaly,Ark+,platt,curtail,50,-0.563,98.0
+CheXpert,SDXL,scaled,MD,Cardiomegaly,Ark+,platt,exaggerate,50,0.0899,46.0
+CheXpert,SDXL,scaled,MD,Cardiomegaly,Ark+,uncal,curtail,50,-0.1159,34.0
+CheXpert,SDXL,scaled,MD,Cardiomegaly,Ark+,uncal,exaggerate,50,-0.0004,0.0
+CheXpert,SDXL,scaled,MD,Cardiomegaly,XRV,buggy,curtail,50,-0.0527,2.0
+CheXpert,SDXL,scaled,MD,Cardiomegaly,XRV,buggy,exaggerate,50,0.0609,22.0
+CheXpert,SDXL,scaled,MD,Cardiomegaly,XRV,platt,curtail,50,-0.329,84.0
+CheXpert,SDXL,scaled,MD,Cardiomegaly,XRV,platt,exaggerate,50,0.2839,92.0
+CheXpert,SDXL,scaled,MD,Cardiomegaly,XRV,uncal,curtail,50,-0.2347,86.0
+CheXpert,SDXL,scaled,MD,Cardiomegaly,XRV,uncal,exaggerate,50,0.2625,88.0
+CheXpert,SDXL,scaled,MD,Consolidation,Ark+,platt,curtail,50,-0.5308,98.0
+CheXpert,SDXL,scaled,MD,Consolidation,Ark+,platt,exaggerate,50,0.4027,98.0
+CheXpert,SDXL,scaled,MD,Consolidation,Ark+,uncal,curtail,50,-0.0618,20.0
+CheXpert,SDXL,scaled,MD,Consolidation,Ark+,uncal,exaggerate,50,0.0214,0.0
+CheXpert,SDXL,scaled,MD,Consolidation,XRV,buggy,curtail,50,-0.0355,0.0
+CheXpert,SDXL,scaled,MD,Consolidation,XRV,buggy,exaggerate,50,0.0843,42.0
+CheXpert,SDXL,scaled,MD,Consolidation,XRV,platt,curtail,50,-0.3478,90.0
+CheXpert,SDXL,scaled,MD,Consolidation,XRV,platt,exaggerate,50,0.5683,100.0
+CheXpert,SDXL,scaled,MD,Consolidation,XRV,uncal,curtail,50,-0.1598,80.0
+CheXpert,SDXL,scaled,MD,Consolidation,XRV,uncal,exaggerate,50,0.3652,98.0
+CheXpert,SDXL,scaled,MD,Edema,Ark+,platt,curtail,50,-0.3183,86.0
+CheXpert,SDXL,scaled,MD,Edema,Ark+,platt,exaggerate,50,0.5016,96.0
+CheXpert,SDXL,scaled,MD,Edema,Ark+,uncal,curtail,50,-0.013,0.0
+CheXpert,SDXL,scaled,MD,Edema,Ark+,uncal,exaggerate,50,0.0077,0.0
+CheXpert,SDXL,scaled,MD,Edema,XRV,buggy,curtail,50,-0.0242,0.0
+CheXpert,SDXL,scaled,MD,Edema,XRV,buggy,exaggerate,50,0.0729,30.0
+CheXpert,SDXL,scaled,MD,Edema,XRV,platt,curtail,50,-0.1977,70.0
+CheXpert,SDXL,scaled,MD,Edema,XRV,platt,exaggerate,50,0.3292,86.0
+CheXpert,SDXL,scaled,MD,Edema,XRV,uncal,curtail,50,-0.1078,46.0
+CheXpert,SDXL,scaled,MD,Edema,XRV,uncal,exaggerate,50,0.3131,84.0
+CheXpert,SDXL,scaled,MD,Pleural Effusion,Ark+,platt,curtail,50,-0.6053,98.0
+CheXpert,SDXL,scaled,MD,Pleural Effusion,Ark+,platt,exaggerate,50,0.3178,92.0
+CheXpert,SDXL,scaled,MD,Pleural Effusion,Ark+,uncal,curtail,50,-0.2843,84.0
+CheXpert,SDXL,scaled,MD,Pleural Effusion,Ark+,uncal,exaggerate,50,0.0703,18.0
+CheXpert,SDXL,scaled,MD,Pleural Effusion,XRV,buggy,curtail,50,-0.0353,0.0
+CheXpert,SDXL,scaled,MD,Pleural Effusion,XRV,buggy,exaggerate,50,0.0761,32.0
+CheXpert,SDXL,scaled,MD,Pleural Effusion,XRV,platt,curtail,50,-0.3081,86.0
+CheXpert,SDXL,scaled,MD,Pleural Effusion,XRV,platt,exaggerate,50,0.3714,88.0
+CheXpert,SDXL,scaled,MD,Pleural Effusion,XRV,uncal,curtail,50,-0.162,74.0
+CheXpert,SDXL,scaled,MD,Pleural Effusion,XRV,uncal,exaggerate,50,0.3294,82.0
+CheXpert,SDXL,unscaled,LR,Atelectasis,Ark+,platt,curtail,50,-0.2676,90.0
+CheXpert,SDXL,unscaled,LR,Atelectasis,Ark+,platt,exaggerate,50,0.0142,20.0
+CheXpert,SDXL,unscaled,LR,Atelectasis,Ark+,uncal,curtail,50,-0.1969,72.0
+CheXpert,SDXL,unscaled,LR,Atelectasis,Ark+,uncal,exaggerate,50,-0.0203,2.0
+CheXpert,SDXL,unscaled,LR,Atelectasis,XRV,buggy,curtail,50,-0.0031,0.0
+CheXpert,SDXL,unscaled,LR,Atelectasis,XRV,buggy,exaggerate,50,0.0224,8.0
+CheXpert,SDXL,unscaled,LR,Atelectasis,XRV,platt,curtail,50,-0.0188,6.0
+CheXpert,SDXL,unscaled,LR,Atelectasis,XRV,platt,exaggerate,50,0.0649,24.0
+CheXpert,SDXL,unscaled,LR,Atelectasis,XRV,uncal,curtail,50,-0.015,2.0
+CheXpert,SDXL,unscaled,LR,Atelectasis,XRV,uncal,exaggerate,50,0.096,24.0
+CheXpert,SDXL,unscaled,LR,Cardiomegaly,Ark+,platt,curtail,50,-0.4627,98.0
+CheXpert,SDXL,unscaled,LR,Cardiomegaly,Ark+,platt,exaggerate,50,-0.0814,2.0
+CheXpert,SDXL,unscaled,LR,Cardiomegaly,Ark+,uncal,curtail,50,-0.1132,34.0
+CheXpert,SDXL,unscaled,LR,Cardiomegaly,Ark+,uncal,exaggerate,50,-0.013,0.0
+CheXpert,SDXL,unscaled,LR,Cardiomegaly,XRV,buggy,curtail,50,-0.0197,0.0
+CheXpert,SDXL,unscaled,LR,Cardiomegaly,XRV,buggy,exaggerate,50,0.0439,22.0
+CheXpert,SDXL,unscaled,LR,Cardiomegaly,XRV,platt,curtail,50,-0.1213,54.0
+CheXpert,SDXL,unscaled,LR,Cardiomegaly,XRV,platt,exaggerate,50,0.165,72.0
+CheXpert,SDXL,unscaled,LR,Cardiomegaly,XRV,uncal,curtail,50,-0.0905,44.0
+CheXpert,SDXL,unscaled,LR,Cardiomegaly,XRV,uncal,exaggerate,50,0.1858,56.0
+CheXpert,SDXL,unscaled,LR,Consolidation,Ark+,platt,curtail,50,-0.3293,96.0
+CheXpert,SDXL,unscaled,LR,Consolidation,Ark+,platt,exaggerate,50,0.1756,74.0
+CheXpert,SDXL,unscaled,LR,Consolidation,Ark+,uncal,curtail,50,-0.0534,14.0
+CheXpert,SDXL,unscaled,LR,Consolidation,Ark+,uncal,exaggerate,50,0.0078,0.0
+CheXpert,SDXL,unscaled,LR,Consolidation,XRV,buggy,curtail,50,-0.0051,0.0
+CheXpert,SDXL,unscaled,LR,Consolidation,XRV,buggy,exaggerate,50,0.0589,14.0
+CheXpert,SDXL,unscaled,LR,Consolidation,XRV,platt,curtail,50,-0.0414,24.0
+CheXpert,SDXL,unscaled,LR,Consolidation,XRV,platt,exaggerate,50,0.3406,90.0
+CheXpert,SDXL,unscaled,LR,Consolidation,XRV,uncal,curtail,50,-0.0239,6.0
+CheXpert,SDXL,unscaled,LR,Consolidation,XRV,uncal,exaggerate,50,0.2503,82.0
+CheXpert,SDXL,unscaled,LR,Edema,Ark+,platt,curtail,50,-0.2631,78.0
+CheXpert,SDXL,unscaled,LR,Edema,Ark+,platt,exaggerate,50,0.2887,90.0
+CheXpert,SDXL,unscaled,LR,Edema,Ark+,uncal,curtail,50,-0.0121,0.0
+CheXpert,SDXL,unscaled,LR,Edema,Ark+,uncal,exaggerate,50,0.003,0.0
+CheXpert,SDXL,unscaled,LR,Edema,XRV,buggy,curtail,50,-0.0041,0.0
+CheXpert,SDXL,unscaled,LR,Edema,XRV,buggy,exaggerate,50,0.0562,24.0
+CheXpert,SDXL,unscaled,LR,Edema,XRV,platt,curtail,50,-0.0464,24.0
+CheXpert,SDXL,unscaled,LR,Edema,XRV,platt,exaggerate,50,0.1812,78.0
+CheXpert,SDXL,unscaled,LR,Edema,XRV,uncal,curtail,50,-0.0195,10.0
+CheXpert,SDXL,unscaled,LR,Edema,XRV,uncal,exaggerate,50,0.2378,80.0
+CheXpert,SDXL,unscaled,LR,Pleural Effusion,Ark+,platt,curtail,50,-0.4616,94.0
+CheXpert,SDXL,unscaled,LR,Pleural Effusion,Ark+,platt,exaggerate,50,0.1533,64.0
+CheXpert,SDXL,unscaled,LR,Pleural Effusion,Ark+,uncal,curtail,50,-0.2545,78.0
+CheXpert,SDXL,unscaled,LR,Pleural Effusion,Ark+,uncal,exaggerate,50,0.0302,2.0
+CheXpert,SDXL,unscaled,LR,Pleural Effusion,XRV,buggy,curtail,50,-0.015,0.0
+CheXpert,SDXL,unscaled,LR,Pleural Effusion,XRV,buggy,exaggerate,50,0.0404,6.0
+CheXpert,SDXL,unscaled,LR,Pleural Effusion,XRV,platt,curtail,50,-0.1452,56.0
+CheXpert,SDXL,unscaled,LR,Pleural Effusion,XRV,platt,exaggerate,50,0.1279,44.0
+CheXpert,SDXL,unscaled,LR,Pleural Effusion,XRV,uncal,curtail,50,-0.0699,30.0
+CheXpert,SDXL,unscaled,LR,Pleural Effusion,XRV,uncal,exaggerate,50,0.171,66.0
+CheXpert,SDXL,unscaled,MD,Atelectasis,Ark+,platt,curtail,50,-0.2743,90.0
+CheXpert,SDXL,unscaled,MD,Atelectasis,Ark+,platt,exaggerate,50,0.0428,22.0
+CheXpert,SDXL,unscaled,MD,Atelectasis,Ark+,uncal,curtail,50,-0.1975,66.0
+CheXpert,SDXL,unscaled,MD,Atelectasis,Ark+,uncal,exaggerate,50,0.0101,4.0
+CheXpert,SDXL,unscaled,MD,Atelectasis,XRV,buggy,curtail,50,-0.0103,0.0
+CheXpert,SDXL,unscaled,MD,Atelectasis,XRV,buggy,exaggerate,50,0.0239,10.0
+CheXpert,SDXL,unscaled,MD,Atelectasis,XRV,platt,curtail,50,-0.0505,18.0
+CheXpert,SDXL,unscaled,MD,Atelectasis,XRV,platt,exaggerate,50,0.0719,22.0
+CheXpert,SDXL,unscaled,MD,Atelectasis,XRV,uncal,curtail,50,-0.0473,14.0
+CheXpert,SDXL,unscaled,MD,Atelectasis,XRV,uncal,exaggerate,50,0.1027,24.0
+CheXpert,SDXL,unscaled,MD,Cardiomegaly,Ark+,platt,curtail,50,-0.4399,100.0
+CheXpert,SDXL,unscaled,MD,Cardiomegaly,Ark+,platt,exaggerate,50,0.0296,20.0
+CheXpert,SDXL,unscaled,MD,Cardiomegaly,Ark+,uncal,curtail,50,-0.1109,32.0
+CheXpert,SDXL,unscaled,MD,Cardiomegaly,Ark+,uncal,exaggerate,50,0.0007,0.0
+CheXpert,SDXL,unscaled,MD,Cardiomegaly,XRV,buggy,curtail,50,-0.036,2.0
+CheXpert,SDXL,unscaled,MD,Cardiomegaly,XRV,buggy,exaggerate,50,0.0521,20.0
+CheXpert,SDXL,unscaled,MD,Cardiomegaly,XRV,platt,curtail,50,-0.2097,80.0
+CheXpert,SDXL,unscaled,MD,Cardiomegaly,XRV,platt,exaggerate,50,0.2261,88.0
+CheXpert,SDXL,unscaled,MD,Cardiomegaly,XRV,uncal,curtail,50,-0.1614,70.0
+CheXpert,SDXL,unscaled,MD,Cardiomegaly,XRV,uncal,exaggerate,50,0.2235,80.0
+CheXpert,SDXL,unscaled,MD,Consolidation,Ark+,platt,curtail,50,-0.2788,76.0
+CheXpert,SDXL,unscaled,MD,Consolidation,Ark+,platt,exaggerate,50,0.3572,82.0
+CheXpert,SDXL,unscaled,MD,Consolidation,Ark+,uncal,curtail,50,-0.0473,10.0
+CheXpert,SDXL,unscaled,MD,Consolidation,Ark+,uncal,exaggerate,50,0.0202,0.0
+CheXpert,SDXL,unscaled,MD,Consolidation,XRV,buggy,curtail,50,-0.0198,0.0
+CheXpert,SDXL,unscaled,MD,Consolidation,XRV,buggy,exaggerate,50,0.0629,16.0
+CheXpert,SDXL,unscaled,MD,Consolidation,XRV,platt,curtail,50,-0.1822,66.0
+CheXpert,SDXL,unscaled,MD,Consolidation,XRV,platt,exaggerate,50,0.3772,94.0
+CheXpert,SDXL,unscaled,MD,Consolidation,XRV,uncal,curtail,50,-0.0899,42.0
+CheXpert,SDXL,unscaled,MD,Consolidation,XRV,uncal,exaggerate,50,0.2683,88.0
+CheXpert,SDXL,unscaled,MD,Edema,Ark+,platt,curtail,50,-0.3442,90.0
+CheXpert,SDXL,unscaled,MD,Edema,Ark+,platt,exaggerate,50,0.1643,66.0
+CheXpert,SDXL,unscaled,MD,Edema,Ark+,uncal,curtail,50,-0.0131,0.0
+CheXpert,SDXL,unscaled,MD,Edema,Ark+,uncal,exaggerate,50,0.0013,0.0
+CheXpert,SDXL,unscaled,MD,Edema,XRV,buggy,curtail,50,-0.0166,0.0
+CheXpert,SDXL,unscaled,MD,Edema,XRV,buggy,exaggerate,50,0.0553,22.0
+CheXpert,SDXL,unscaled,MD,Edema,XRV,platt,curtail,50,-0.1331,52.0
+CheXpert,SDXL,unscaled,MD,Edema,XRV,platt,exaggerate,50,0.1829,62.0
+CheXpert,SDXL,unscaled,MD,Edema,XRV,uncal,curtail,50,-0.0741,30.0
+CheXpert,SDXL,unscaled,MD,Edema,XRV,uncal,exaggerate,50,0.2341,76.0
+CheXpert,SDXL,unscaled,MD,Pleural Effusion,Ark+,platt,curtail,50,-0.3428,82.0
+CheXpert,SDXL,unscaled,MD,Pleural Effusion,Ark+,platt,exaggerate,50,0.2503,76.0
+CheXpert,SDXL,unscaled,MD,Pleural Effusion,Ark+,uncal,curtail,50,-0.2086,70.0
+CheXpert,SDXL,unscaled,MD,Pleural Effusion,Ark+,uncal,exaggerate,50,0.0605,18.0
+CheXpert,SDXL,unscaled,MD,Pleural Effusion,XRV,buggy,curtail,50,-0.0234,0.0
+CheXpert,SDXL,unscaled,MD,Pleural Effusion,XRV,buggy,exaggerate,50,0.0546,22.0
+CheXpert,SDXL,unscaled,MD,Pleural Effusion,XRV,platt,curtail,50,-0.1971,68.0
+CheXpert,SDXL,unscaled,MD,Pleural Effusion,XRV,platt,exaggerate,50,0.218,74.0
+CheXpert,SDXL,unscaled,MD,Pleural Effusion,XRV,uncal,curtail,50,-0.1071,50.0
+CheXpert,SDXL,unscaled,MD,Pleural Effusion,XRV,uncal,exaggerate,50,0.2339,72.0
+NIH,AE,na,LR,Atelectasis,Ark+,platt,curtail,50,-0.035,14.0
+NIH,AE,na,LR,Atelectasis,Ark+,platt,exaggerate,50,0.055,14.0
+NIH,AE,na,LR,Atelectasis,Ark+,uncal,curtail,50,-0.0084,0.0
+NIH,AE,na,LR,Atelectasis,Ark+,uncal,exaggerate,50,0.0078,0.0
+NIH,AE,na,LR,Atelectasis,XRV,buggy,curtail,50,-0.0073,0.0
+NIH,AE,na,LR,Atelectasis,XRV,buggy,exaggerate,50,0.023,2.0
+NIH,AE,na,LR,Atelectasis,XRV,platt,curtail,50,-0.0389,14.0
+NIH,AE,na,LR,Atelectasis,XRV,platt,exaggerate,50,0.1277,50.0
+NIH,AE,na,LR,Atelectasis,XRV,uncal,curtail,50,-0.0302,14.0
+NIH,AE,na,LR,Atelectasis,XRV,uncal,exaggerate,50,0.0936,34.0
+NIH,AE,na,LR,Cardiomegaly,Ark+,platt,curtail,50,-0.0799,36.0
+NIH,AE,na,LR,Cardiomegaly,Ark+,platt,exaggerate,50,0.0835,34.0
+NIH,AE,na,LR,Cardiomegaly,Ark+,uncal,curtail,50,-0.0086,0.0
+NIH,AE,na,LR,Cardiomegaly,Ark+,uncal,exaggerate,50,0.0064,0.0
+NIH,AE,na,LR,Cardiomegaly,XRV,buggy,curtail,50,-0.0407,8.0
+NIH,AE,na,LR,Cardiomegaly,XRV,buggy,exaggerate,50,0.0232,10.0
+NIH,AE,na,LR,Cardiomegaly,XRV,platt,curtail,50,-0.2141,76.0
+NIH,AE,na,LR,Cardiomegaly,XRV,platt,exaggerate,50,0.1949,62.0
+NIH,AE,na,LR,Cardiomegaly,XRV,uncal,curtail,50,-0.1666,54.0
+NIH,AE,na,LR,Cardiomegaly,XRV,uncal,exaggerate,50,0.0941,24.0
+NIH,AE,na,LR,Consolidation,Ark+,platt,curtail,50,-0.0393,16.0
+NIH,AE,na,LR,Consolidation,Ark+,platt,exaggerate,50,0.0259,2.0
+NIH,AE,na,LR,Consolidation,Ark+,uncal,curtail,50,-0.0019,0.0
+NIH,AE,na,LR,Consolidation,Ark+,uncal,exaggerate,50,0.0007,0.0
+NIH,AE,na,LR,Consolidation,XRV,buggy,curtail,50,-0.0037,0.0
+NIH,AE,na,LR,Consolidation,XRV,buggy,exaggerate,50,0.0071,0.0
+NIH,AE,na,LR,Consolidation,XRV,platt,curtail,50,-0.0306,10.0
+NIH,AE,na,LR,Consolidation,XRV,platt,exaggerate,50,0.0458,16.0
+NIH,AE,na,LR,Consolidation,XRV,uncal,curtail,50,-0.0153,4.0
+NIH,AE,na,LR,Consolidation,XRV,uncal,exaggerate,50,0.0287,8.0
+NIH,AE,na,LR,Edema,Ark+,platt,curtail,50,-0.063,24.0
+NIH,AE,na,LR,Edema,Ark+,platt,exaggerate,50,0.043,6.0
+NIH,AE,na,LR,Edema,Ark+,uncal,curtail,50,-0.0007,0.0
+NIH,AE,na,LR,Edema,Ark+,uncal,exaggerate,50,0.0004,0.0
+NIH,AE,na,LR,Edema,XRV,buggy,curtail,50,-0.0096,0.0
+NIH,AE,na,LR,Edema,XRV,buggy,exaggerate,50,0.0025,0.0
+NIH,AE,na,LR,Edema,XRV,platt,curtail,50,-0.1269,54.0
+NIH,AE,na,LR,Edema,XRV,platt,exaggerate,50,0.096,28.0
+NIH,AE,na,LR,Edema,XRV,uncal,curtail,50,-0.0389,8.0
+NIH,AE,na,LR,Edema,XRV,uncal,exaggerate,50,0.0099,2.0
+NIH,AE,na,LR,Pleural Effusion,Ark+,platt,curtail,50,-0.0463,20.0
+NIH,AE,na,LR,Pleural Effusion,Ark+,platt,exaggerate,50,0.0292,2.0
+NIH,AE,na,LR,Pleural Effusion,Ark+,uncal,curtail,50,-0.0059,0.0
+NIH,AE,na,LR,Pleural Effusion,Ark+,uncal,exaggerate,50,0.0015,0.0
+NIH,AE,na,LR,Pleural Effusion,XRV,buggy,curtail,50,-0.0036,0.0
+NIH,AE,na,LR,Pleural Effusion,XRV,buggy,exaggerate,50,0.0097,0.0
+NIH,AE,na,LR,Pleural Effusion,XRV,platt,curtail,50,-0.0125,2.0
+NIH,AE,na,LR,Pleural Effusion,XRV,platt,exaggerate,50,0.0881,36.0
+NIH,AE,na,LR,Pleural Effusion,XRV,uncal,curtail,50,-0.0154,8.0
+NIH,AE,na,LR,Pleural Effusion,XRV,uncal,exaggerate,50,0.0394,14.0
+NIH,AE,na,MD,Atelectasis,Ark+,platt,curtail,50,-0.0687,24.0
+NIH,AE,na,MD,Atelectasis,Ark+,platt,exaggerate,50,0.071,28.0
+NIH,AE,na,MD,Atelectasis,Ark+,uncal,curtail,50,-0.0138,2.0
+NIH,AE,na,MD,Atelectasis,Ark+,uncal,exaggerate,50,0.0105,0.0
+NIH,AE,na,MD,Atelectasis,XRV,buggy,curtail,50,-0.0123,0.0
+NIH,AE,na,MD,Atelectasis,XRV,buggy,exaggerate,50,0.0352,8.0
+NIH,AE,na,MD,Atelectasis,XRV,platt,curtail,50,-0.0754,32.0
+NIH,AE,na,MD,Atelectasis,XRV,platt,exaggerate,50,0.1879,68.0
+NIH,AE,na,MD,Atelectasis,XRV,uncal,curtail,50,-0.0506,16.0
+NIH,AE,na,MD,Atelectasis,XRV,uncal,exaggerate,50,0.144,48.0
+NIH,AE,na,MD,Cardiomegaly,Ark+,platt,curtail,50,-0.104,46.0
+NIH,AE,na,MD,Cardiomegaly,Ark+,platt,exaggerate,50,0.0856,32.0
+NIH,AE,na,MD,Cardiomegaly,Ark+,uncal,curtail,50,-0.01,0.0
+NIH,AE,na,MD,Cardiomegaly,Ark+,uncal,exaggerate,50,0.0063,0.0
+NIH,AE,na,MD,Cardiomegaly,XRV,buggy,curtail,50,-0.0417,4.0
+NIH,AE,na,MD,Cardiomegaly,XRV,buggy,exaggerate,50,0.027,8.0
+NIH,AE,na,MD,Cardiomegaly,XRV,platt,curtail,50,-0.2115,76.0
+NIH,AE,na,MD,Cardiomegaly,XRV,platt,exaggerate,50,0.1975,56.0
+NIH,AE,na,MD,Cardiomegaly,XRV,uncal,curtail,50,-0.1708,56.0
+NIH,AE,na,MD,Cardiomegaly,XRV,uncal,exaggerate,50,0.1098,32.0
+NIH,AE,na,MD,Consolidation,Ark+,platt,curtail,50,-0.0612,24.0
+NIH,AE,na,MD,Consolidation,Ark+,platt,exaggerate,50,0.0316,6.0
+NIH,AE,na,MD,Consolidation,Ark+,uncal,curtail,50,-0.0027,0.0
+NIH,AE,na,MD,Consolidation,Ark+,uncal,exaggerate,50,0.0009,0.0
+NIH,AE,na,MD,Consolidation,XRV,buggy,curtail,50,-0.0129,0.0
+NIH,AE,na,MD,Consolidation,XRV,buggy,exaggerate,50,0.0212,2.0
+NIH,AE,na,MD,Consolidation,XRV,platt,curtail,50,-0.084,34.0
+NIH,AE,na,MD,Consolidation,XRV,platt,exaggerate,50,0.1251,40.0
+NIH,AE,na,MD,Consolidation,XRV,uncal,curtail,50,-0.0532,22.0
+NIH,AE,na,MD,Consolidation,XRV,uncal,exaggerate,50,0.0864,30.0
+NIH,AE,na,MD,Edema,Ark+,platt,curtail,50,-0.0835,34.0
+NIH,AE,na,MD,Edema,Ark+,platt,exaggerate,50,0.0634,14.0
+NIH,AE,na,MD,Edema,Ark+,uncal,curtail,50,-0.0009,0.0
+NIH,AE,na,MD,Edema,Ark+,uncal,exaggerate,50,0.0006,0.0
+NIH,AE,na,MD,Edema,XRV,buggy,curtail,50,-0.0118,2.0
+NIH,AE,na,MD,Edema,XRV,buggy,exaggerate,50,0.0091,4.0
+NIH,AE,na,MD,Edema,XRV,platt,curtail,50,-0.2046,68.0
+NIH,AE,na,MD,Edema,XRV,platt,exaggerate,50,0.1335,28.0
+NIH,AE,na,MD,Edema,XRV,uncal,curtail,50,-0.0476,14.0
+NIH,AE,na,MD,Edema,XRV,uncal,exaggerate,50,0.0368,8.0
+NIH,AE,na,MD,Pleural Effusion,Ark+,platt,curtail,50,-0.118,34.0
+NIH,AE,na,MD,Pleural Effusion,Ark+,platt,exaggerate,50,0.0591,20.0
+NIH,AE,na,MD,Pleural Effusion,Ark+,uncal,curtail,50,-0.0135,2.0
+NIH,AE,na,MD,Pleural Effusion,Ark+,uncal,exaggerate,50,0.0038,0.0
+NIH,AE,na,MD,Pleural Effusion,XRV,buggy,curtail,50,-0.0263,2.0
+NIH,AE,na,MD,Pleural Effusion,XRV,buggy,exaggerate,50,0.0285,6.0
+NIH,AE,na,MD,Pleural Effusion,XRV,platt,curtail,50,-0.1146,48.0
+NIH,AE,na,MD,Pleural Effusion,XRV,platt,exaggerate,50,0.2139,64.0
+NIH,AE,na,MD,Pleural Effusion,XRV,uncal,curtail,50,-0.1093,46.0
+NIH,AE,na,MD,Pleural Effusion,XRV,uncal,exaggerate,50,0.116,34.0
+NIH,SD,scaled,LR,Atelectasis,Ark+,platt,curtail,50,-0.384,94.0
+NIH,SD,scaled,LR,Atelectasis,Ark+,platt,exaggerate,50,0.2349,74.0
+NIH,SD,scaled,LR,Atelectasis,Ark+,uncal,curtail,50,-0.2122,64.0
+NIH,SD,scaled,LR,Atelectasis,Ark+,uncal,exaggerate,50,0.0333,8.0
+NIH,SD,scaled,LR,Atelectasis,XRV,buggy,curtail,50,-0.0146,0.0
+NIH,SD,scaled,LR,Atelectasis,XRV,buggy,exaggerate,50,0.0667,32.0
+NIH,SD,scaled,LR,Atelectasis,XRV,platt,curtail,50,-0.0832,38.0
+NIH,SD,scaled,LR,Atelectasis,XRV,platt,exaggerate,50,0.3371,90.0
+NIH,SD,scaled,LR,Atelectasis,XRV,uncal,curtail,50,-0.0614,24.0
+NIH,SD,scaled,LR,Atelectasis,XRV,uncal,exaggerate,50,0.2749,80.0
+NIH,SD,scaled,LR,Cardiomegaly,Ark+,platt,curtail,50,-0.3283,86.0
+NIH,SD,scaled,LR,Cardiomegaly,Ark+,platt,exaggerate,50,0.1711,74.0
+NIH,SD,scaled,LR,Cardiomegaly,Ark+,uncal,curtail,50,-0.0788,26.0
+NIH,SD,scaled,LR,Cardiomegaly,Ark+,uncal,exaggerate,50,0.0046,0.0
+NIH,SD,scaled,LR,Cardiomegaly,XRV,buggy,curtail,50,-0.0547,14.0
+NIH,SD,scaled,LR,Cardiomegaly,XRV,buggy,exaggerate,50,0.0802,46.0
+NIH,SD,scaled,LR,Cardiomegaly,XRV,platt,curtail,50,-0.2353,74.0
+NIH,SD,scaled,LR,Cardiomegaly,XRV,platt,exaggerate,50,0.472,92.0
+NIH,SD,scaled,LR,Cardiomegaly,XRV,uncal,curtail,50,-0.2267,66.0
+NIH,SD,scaled,LR,Cardiomegaly,XRV,uncal,exaggerate,50,0.3298,84.0
+NIH,SD,scaled,LR,Consolidation,Ark+,platt,curtail,50,-0.2258,74.0
+NIH,SD,scaled,LR,Consolidation,Ark+,platt,exaggerate,50,0.2156,74.0
+NIH,SD,scaled,LR,Consolidation,Ark+,uncal,curtail,50,-0.067,28.0
+NIH,SD,scaled,LR,Consolidation,Ark+,uncal,exaggerate,50,0.008,0.0
+NIH,SD,scaled,LR,Consolidation,XRV,buggy,curtail,50,0.0015,0.0
+NIH,SD,scaled,LR,Consolidation,XRV,buggy,exaggerate,50,0.091,44.0
+NIH,SD,scaled,LR,Consolidation,XRV,platt,curtail,50,-0.0203,20.0
+NIH,SD,scaled,LR,Consolidation,XRV,platt,exaggerate,50,0.5464,98.0
+NIH,SD,scaled,LR,Consolidation,XRV,uncal,curtail,50,0.0056,4.0
+NIH,SD,scaled,LR,Consolidation,XRV,uncal,exaggerate,50,0.3756,94.0
+NIH,SD,scaled,LR,Edema,Ark+,platt,curtail,50,-0.6304,94.0
+NIH,SD,scaled,LR,Edema,Ark+,platt,exaggerate,50,0.202,68.0
+NIH,SD,scaled,LR,Edema,Ark+,uncal,curtail,50,-0.0439,8.0
+NIH,SD,scaled,LR,Edema,Ark+,uncal,exaggerate,50,0.002,0.0
+NIH,SD,scaled,LR,Edema,XRV,buggy,curtail,50,-0.0344,4.0
+NIH,SD,scaled,LR,Edema,XRV,buggy,exaggerate,50,0.0907,54.0
+NIH,SD,scaled,LR,Edema,XRV,platt,curtail,50,-0.1299,40.0
+NIH,SD,scaled,LR,Edema,XRV,platt,exaggerate,50,0.6662,96.0
+NIH,SD,scaled,LR,Edema,XRV,uncal,curtail,50,-0.1413,54.0
+NIH,SD,scaled,LR,Edema,XRV,uncal,exaggerate,50,0.3722,84.0
+NIH,SD,scaled,LR,Pleural Effusion,Ark+,platt,curtail,50,-0.1985,74.0
+NIH,SD,scaled,LR,Pleural Effusion,Ark+,platt,exaggerate,50,0.444,92.0
+NIH,SD,scaled,LR,Pleural Effusion,Ark+,uncal,curtail,50,-0.2235,54.0
+NIH,SD,scaled,LR,Pleural Effusion,Ark+,uncal,exaggerate,50,0.0431,10.0
+NIH,SD,scaled,LR,Pleural Effusion,XRV,buggy,curtail,50,-0.0314,8.0
+NIH,SD,scaled,LR,Pleural Effusion,XRV,buggy,exaggerate,50,0.0675,34.0
+NIH,SD,scaled,LR,Pleural Effusion,XRV,platt,curtail,50,-0.0997,40.0
+NIH,SD,scaled,LR,Pleural Effusion,XRV,platt,exaggerate,50,0.4385,92.0
+NIH,SD,scaled,LR,Pleural Effusion,XRV,uncal,curtail,50,-0.134,50.0
+NIH,SD,scaled,LR,Pleural Effusion,XRV,uncal,exaggerate,50,0.2774,74.0
+NIH,SD,scaled,MD,Atelectasis,Ark+,platt,curtail,50,-0.3453,84.0
+NIH,SD,scaled,MD,Atelectasis,Ark+,platt,exaggerate,50,0.3577,90.0
+NIH,SD,scaled,MD,Atelectasis,Ark+,uncal,curtail,50,-0.1895,58.0
+NIH,SD,scaled,MD,Atelectasis,Ark+,uncal,exaggerate,50,0.0833,32.0
+NIH,SD,scaled,MD,Atelectasis,XRV,buggy,curtail,50,-0.0128,0.0
+NIH,SD,scaled,MD,Atelectasis,XRV,buggy,exaggerate,50,0.0593,26.0
+NIH,SD,scaled,MD,Atelectasis,XRV,platt,curtail,50,-0.0687,32.0
+NIH,SD,scaled,MD,Atelectasis,XRV,platt,exaggerate,50,0.3098,80.0
+NIH,SD,scaled,MD,Atelectasis,XRV,uncal,curtail,50,-0.0537,22.0
+NIH,SD,scaled,MD,Atelectasis,XRV,uncal,exaggerate,50,0.2443,70.0
+NIH,SD,scaled,MD,Cardiomegaly,Ark+,platt,curtail,50,-0.1691,72.0
+NIH,SD,scaled,MD,Cardiomegaly,Ark+,platt,exaggerate,50,0.1381,58.0
+NIH,SD,scaled,MD,Cardiomegaly,Ark+,uncal,curtail,50,-0.0608,22.0
+NIH,SD,scaled,MD,Cardiomegaly,Ark+,uncal,exaggerate,50,0.0054,0.0
+NIH,SD,scaled,MD,Cardiomegaly,XRV,buggy,curtail,50,-0.0519,12.0
+NIH,SD,scaled,MD,Cardiomegaly,XRV,buggy,exaggerate,50,0.0429,18.0
+NIH,SD,scaled,MD,Cardiomegaly,XRV,platt,curtail,50,-0.2341,72.0
+NIH,SD,scaled,MD,Cardiomegaly,XRV,platt,exaggerate,50,0.3207,82.0
+NIH,SD,scaled,MD,Cardiomegaly,XRV,uncal,curtail,50,-0.2143,70.0
+NIH,SD,scaled,MD,Cardiomegaly,XRV,uncal,exaggerate,50,0.1746,58.0
+NIH,SD,scaled,MD,Consolidation,Ark+,platt,curtail,50,-0.0869,46.0
+NIH,SD,scaled,MD,Consolidation,Ark+,platt,exaggerate,50,0.4682,88.0
+NIH,SD,scaled,MD,Consolidation,Ark+,uncal,curtail,50,-0.0488,14.0
+NIH,SD,scaled,MD,Consolidation,Ark+,uncal,exaggerate,50,0.0423,14.0
+NIH,SD,scaled,MD,Consolidation,XRV,buggy,curtail,50,-0.0168,2.0
+NIH,SD,scaled,MD,Consolidation,XRV,buggy,exaggerate,50,0.0825,42.0
+NIH,SD,scaled,MD,Consolidation,XRV,platt,curtail,50,-0.14,58.0
+NIH,SD,scaled,MD,Consolidation,XRV,platt,exaggerate,50,0.4735,94.0
+NIH,SD,scaled,MD,Consolidation,XRV,uncal,curtail,50,-0.07,28.0
+NIH,SD,scaled,MD,Consolidation,XRV,uncal,exaggerate,50,0.3396,86.0
+NIH,SD,scaled,MD,Edema,Ark+,platt,curtail,50,-0.1323,48.0
+NIH,SD,scaled,MD,Edema,Ark+,platt,exaggerate,50,0.2471,74.0
+NIH,SD,scaled,MD,Edema,Ark+,uncal,curtail,50,-0.0273,2.0
+NIH,SD,scaled,MD,Edema,Ark+,uncal,exaggerate,50,0.0031,0.0
+NIH,SD,scaled,MD,Edema,XRV,buggy,curtail,50,-0.044,12.0
+NIH,SD,scaled,MD,Edema,XRV,buggy,exaggerate,50,0.0299,16.0
+NIH,SD,scaled,MD,Edema,XRV,platt,curtail,50,-0.1746,68.0
+NIH,SD,scaled,MD,Edema,XRV,platt,exaggerate,50,0.3643,80.0
+NIH,SD,scaled,MD,Edema,XRV,uncal,curtail,50,-0.1801,56.0
+NIH,SD,scaled,MD,Edema,XRV,uncal,exaggerate,50,0.1217,26.0
+NIH,SD,scaled,MD,Pleural Effusion,Ark+,platt,curtail,50,-0.3116,66.0
+NIH,SD,scaled,MD,Pleural Effusion,Ark+,platt,exaggerate,50,0.5829,96.0
+NIH,SD,scaled,MD,Pleural Effusion,Ark+,uncal,curtail,50,-0.2181,56.0
+NIH,SD,scaled,MD,Pleural Effusion,Ark+,uncal,exaggerate,50,0.1049,44.0
+NIH,SD,scaled,MD,Pleural Effusion,XRV,buggy,curtail,50,-0.0333,2.0
+NIH,SD,scaled,MD,Pleural Effusion,XRV,buggy,exaggerate,50,0.0832,52.0
+NIH,SD,scaled,MD,Pleural Effusion,XRV,platt,curtail,50,-0.1012,48.0
+NIH,SD,scaled,MD,Pleural Effusion,XRV,platt,exaggerate,50,0.5171,94.0
+NIH,SD,scaled,MD,Pleural Effusion,XRV,uncal,curtail,50,-0.1424,58.0
+NIH,SD,scaled,MD,Pleural Effusion,XRV,uncal,exaggerate,50,0.342,86.0
+NIH,SD,unscaled,LR,Atelectasis,Ark+,platt,curtail,50,-0.3089,86.0
+NIH,SD,unscaled,LR,Atelectasis,Ark+,platt,exaggerate,50,0.2048,72.0
+NIH,SD,unscaled,LR,Atelectasis,Ark+,uncal,curtail,50,-0.1906,58.0
+NIH,SD,unscaled,LR,Atelectasis,Ark+,uncal,exaggerate,50,0.0303,8.0
+NIH,SD,unscaled,LR,Atelectasis,XRV,buggy,curtail,50,-0.0105,0.0
+NIH,SD,unscaled,LR,Atelectasis,XRV,buggy,exaggerate,50,0.0588,24.0
+NIH,SD,unscaled,LR,Atelectasis,XRV,platt,curtail,50,-0.0662,32.0
+NIH,SD,unscaled,LR,Atelectasis,XRV,platt,exaggerate,50,0.3028,82.0
+NIH,SD,unscaled,LR,Atelectasis,XRV,uncal,curtail,50,-0.0443,14.0
+NIH,SD,unscaled,LR,Atelectasis,XRV,uncal,exaggerate,50,0.2419,74.0
+NIH,SD,unscaled,LR,Cardiomegaly,Ark+,platt,curtail,50,-0.2871,82.0
+NIH,SD,unscaled,LR,Cardiomegaly,Ark+,platt,exaggerate,50,0.1289,68.0
+NIH,SD,unscaled,LR,Cardiomegaly,Ark+,uncal,curtail,50,-0.076,24.0
+NIH,SD,unscaled,LR,Cardiomegaly,Ark+,uncal,exaggerate,50,0.0035,0.0
+NIH,SD,unscaled,LR,Cardiomegaly,XRV,buggy,curtail,50,-0.0535,14.0
+NIH,SD,unscaled,LR,Cardiomegaly,XRV,buggy,exaggerate,50,0.0611,28.0
+NIH,SD,unscaled,LR,Cardiomegaly,XRV,platt,curtail,50,-0.238,72.0
+NIH,SD,unscaled,LR,Cardiomegaly,XRV,platt,exaggerate,50,0.3961,92.0
+NIH,SD,unscaled,LR,Cardiomegaly,XRV,uncal,curtail,50,-0.2215,68.0
+NIH,SD,unscaled,LR,Cardiomegaly,XRV,uncal,exaggerate,50,0.2494,72.0
+NIH,SD,unscaled,LR,Consolidation,Ark+,platt,curtail,50,-0.1729,64.0
+NIH,SD,unscaled,LR,Consolidation,Ark+,platt,exaggerate,50,0.2097,70.0
+NIH,SD,unscaled,LR,Consolidation,Ark+,uncal,curtail,50,-0.0597,22.0
+NIH,SD,unscaled,LR,Consolidation,Ark+,uncal,exaggerate,50,0.0079,0.0
+NIH,SD,unscaled,LR,Consolidation,XRV,buggy,curtail,50,0.0009,0.0
+NIH,SD,unscaled,LR,Consolidation,XRV,buggy,exaggerate,50,0.0734,26.0
+NIH,SD,unscaled,LR,Consolidation,XRV,platt,curtail,50,-0.0147,16.0
+NIH,SD,unscaled,LR,Consolidation,XRV,platt,exaggerate,50,0.4182,96.0
+NIH,SD,unscaled,LR,Consolidation,XRV,uncal,curtail,50,0.0031,2.0
+NIH,SD,unscaled,LR,Consolidation,XRV,uncal,exaggerate,50,0.3014,88.0
+NIH,SD,unscaled,LR,Edema,Ark+,platt,curtail,50,-0.5188,94.0
+NIH,SD,unscaled,LR,Edema,Ark+,platt,exaggerate,50,0.1699,56.0
+NIH,SD,unscaled,LR,Edema,Ark+,uncal,curtail,50,-0.0427,8.0
+NIH,SD,unscaled,LR,Edema,Ark+,uncal,exaggerate,50,0.0018,0.0
+NIH,SD,unscaled,LR,Edema,XRV,buggy,curtail,50,-0.0257,0.0
+NIH,SD,unscaled,LR,Edema,XRV,buggy,exaggerate,50,0.0542,28.0
+NIH,SD,unscaled,LR,Edema,XRV,platt,curtail,50,-0.0795,28.0
+NIH,SD,unscaled,LR,Edema,XRV,platt,exaggerate,50,0.5368,98.0
+NIH,SD,unscaled,LR,Edema,XRV,uncal,curtail,50,-0.1055,42.0
+NIH,SD,unscaled,LR,Edema,XRV,uncal,exaggerate,50,0.221,56.0
+NIH,SD,unscaled,LR,Pleural Effusion,Ark+,platt,curtail,50,-0.1641,58.0
+NIH,SD,unscaled,LR,Pleural Effusion,Ark+,platt,exaggerate,50,0.3797,94.0
+NIH,SD,unscaled,LR,Pleural Effusion,Ark+,uncal,curtail,50,-0.1998,52.0
+NIH,SD,unscaled,LR,Pleural Effusion,Ark+,uncal,exaggerate,50,0.0333,2.0
+NIH,SD,unscaled,LR,Pleural Effusion,XRV,buggy,curtail,50,-0.0273,2.0
+NIH,SD,unscaled,LR,Pleural Effusion,XRV,buggy,exaggerate,50,0.0532,20.0
+NIH,SD,unscaled,LR,Pleural Effusion,XRV,platt,curtail,50,-0.0814,34.0
+NIH,SD,unscaled,LR,Pleural Effusion,XRV,platt,exaggerate,50,0.3738,88.0
+NIH,SD,unscaled,LR,Pleural Effusion,XRV,uncal,curtail,50,-0.1169,46.0
+NIH,SD,unscaled,LR,Pleural Effusion,XRV,uncal,exaggerate,50,0.2174,62.0
+NIH,SD,unscaled,MD,Atelectasis,Ark+,platt,curtail,50,-0.2475,74.0
+NIH,SD,unscaled,MD,Atelectasis,Ark+,platt,exaggerate,50,0.3175,86.0
+NIH,SD,unscaled,MD,Atelectasis,Ark+,uncal,curtail,50,-0.1566,52.0
+NIH,SD,unscaled,MD,Atelectasis,Ark+,uncal,exaggerate,50,0.072,30.0
+NIH,SD,unscaled,MD,Atelectasis,XRV,buggy,curtail,50,-0.0106,0.0
+NIH,SD,unscaled,MD,Atelectasis,XRV,buggy,exaggerate,50,0.0482,20.0
+NIH,SD,unscaled,MD,Atelectasis,XRV,platt,curtail,50,-0.0544,24.0
+NIH,SD,unscaled,MD,Atelectasis,XRV,platt,exaggerate,50,0.2526,76.0
+NIH,SD,unscaled,MD,Atelectasis,XRV,uncal,curtail,50,-0.0441,16.0
+NIH,SD,unscaled,MD,Atelectasis,XRV,uncal,exaggerate,50,0.1984,58.0
+NIH,SD,unscaled,MD,Cardiomegaly,Ark+,platt,curtail,50,-0.1105,44.0
+NIH,SD,unscaled,MD,Cardiomegaly,Ark+,platt,exaggerate,50,0.1058,40.0
+NIH,SD,unscaled,MD,Cardiomegaly,Ark+,uncal,curtail,50,-0.0442,20.0
+NIH,SD,unscaled,MD,Cardiomegaly,Ark+,uncal,exaggerate,50,0.0047,0.0
+NIH,SD,unscaled,MD,Cardiomegaly,XRV,buggy,curtail,50,-0.0487,10.0
+NIH,SD,unscaled,MD,Cardiomegaly,XRV,buggy,exaggerate,50,0.0378,14.0
+NIH,SD,unscaled,MD,Cardiomegaly,XRV,platt,curtail,50,-0.219,72.0
+NIH,SD,unscaled,MD,Cardiomegaly,XRV,platt,exaggerate,50,0.2815,80.0
+NIH,SD,unscaled,MD,Cardiomegaly,XRV,uncal,curtail,50,-0.201,66.0
+NIH,SD,unscaled,MD,Cardiomegaly,XRV,uncal,exaggerate,50,0.1542,44.0
+NIH,SD,unscaled,MD,Consolidation,Ark+,platt,curtail,50,-0.0486,22.0
+NIH,SD,unscaled,MD,Consolidation,Ark+,platt,exaggerate,50,0.3575,80.0
+NIH,SD,unscaled,MD,Consolidation,Ark+,uncal,curtail,50,-0.0368,8.0
+NIH,SD,unscaled,MD,Consolidation,Ark+,uncal,exaggerate,50,0.0264,6.0
+NIH,SD,unscaled,MD,Consolidation,XRV,buggy,curtail,50,-0.0121,0.0
+NIH,SD,unscaled,MD,Consolidation,XRV,buggy,exaggerate,50,0.0673,26.0
+NIH,SD,unscaled,MD,Consolidation,XRV,platt,curtail,50,-0.1069,40.0
+NIH,SD,unscaled,MD,Consolidation,XRV,platt,exaggerate,50,0.3868,90.0
+NIH,SD,unscaled,MD,Consolidation,XRV,uncal,curtail,50,-0.0504,16.0
+NIH,SD,unscaled,MD,Consolidation,XRV,uncal,exaggerate,50,0.2762,84.0
+NIH,SD,unscaled,MD,Edema,Ark+,platt,curtail,50,-0.0717,26.0
+NIH,SD,unscaled,MD,Edema,Ark+,platt,exaggerate,50,0.1562,42.0
+NIH,SD,unscaled,MD,Edema,Ark+,uncal,curtail,50,-0.019,0.0
+NIH,SD,unscaled,MD,Edema,Ark+,uncal,exaggerate,50,0.0018,0.0
+NIH,SD,unscaled,MD,Edema,XRV,buggy,curtail,50,-0.0354,8.0
+NIH,SD,unscaled,MD,Edema,XRV,buggy,exaggerate,50,0.0239,12.0
+NIH,SD,unscaled,MD,Edema,XRV,platt,curtail,50,-0.1208,46.0
+NIH,SD,unscaled,MD,Edema,XRV,platt,exaggerate,50,0.283,70.0
+NIH,SD,unscaled,MD,Edema,XRV,uncal,curtail,50,-0.1454,50.0
+NIH,SD,unscaled,MD,Edema,XRV,uncal,exaggerate,50,0.097,26.0
+NIH,SD,unscaled,MD,Pleural Effusion,Ark+,platt,curtail,50,-0.2453,60.0
+NIH,SD,unscaled,MD,Pleural Effusion,Ark+,platt,exaggerate,50,0.5163,96.0
+NIH,SD,unscaled,MD,Pleural Effusion,Ark+,uncal,curtail,50,-0.1811,52.0
+NIH,SD,unscaled,MD,Pleural Effusion,Ark+,uncal,exaggerate,50,0.0851,28.0
+NIH,SD,unscaled,MD,Pleural Effusion,XRV,buggy,curtail,50,-0.03,4.0
+NIH,SD,unscaled,MD,Pleural Effusion,XRV,buggy,exaggerate,50,0.0733,40.0
+NIH,SD,unscaled,MD,Pleural Effusion,XRV,platt,curtail,50,-0.0964,38.0
+NIH,SD,unscaled,MD,Pleural Effusion,XRV,platt,exaggerate,50,0.4764,92.0
+NIH,SD,unscaled,MD,Pleural Effusion,XRV,uncal,curtail,50,-0.1281,52.0
+NIH,SD,unscaled,MD,Pleural Effusion,XRV,uncal,exaggerate,50,0.3004,80.0
+NIH,SDXL,scaled,LR,Atelectasis,Ark+,platt,curtail,50,-0.4693,92.0
+NIH,SDXL,scaled,LR,Atelectasis,Ark+,platt,exaggerate,50,0.1738,70.0
+NIH,SDXL,scaled,LR,Atelectasis,Ark+,uncal,curtail,50,-0.2468,70.0
+NIH,SDXL,scaled,LR,Atelectasis,Ark+,uncal,exaggerate,50,0.0006,0.0
+NIH,SDXL,scaled,LR,Atelectasis,XRV,buggy,curtail,50,-0.0108,0.0
+NIH,SDXL,scaled,LR,Atelectasis,XRV,buggy,exaggerate,50,0.0811,46.0
+NIH,SDXL,scaled,LR,Atelectasis,XRV,platt,curtail,50,-0.068,36.0
+NIH,SDXL,scaled,LR,Atelectasis,XRV,platt,exaggerate,50,0.4138,94.0
+NIH,SDXL,scaled,LR,Atelectasis,XRV,uncal,curtail,50,-0.0453,22.0
+NIH,SDXL,scaled,LR,Atelectasis,XRV,uncal,exaggerate,50,0.3355,86.0
+NIH,SDXL,scaled,LR,Cardiomegaly,Ark+,platt,curtail,50,-0.4084,90.0
+NIH,SDXL,scaled,LR,Cardiomegaly,Ark+,platt,exaggerate,50,0.2155,84.0
+NIH,SDXL,scaled,LR,Cardiomegaly,Ark+,uncal,curtail,50,-0.0807,28.0
+NIH,SDXL,scaled,LR,Cardiomegaly,Ark+,uncal,exaggerate,50,0.0047,0.0
+NIH,SDXL,scaled,LR,Cardiomegaly,XRV,buggy,curtail,50,-0.0517,22.0
+NIH,SDXL,scaled,LR,Cardiomegaly,XRV,buggy,exaggerate,50,0.0961,56.0
+NIH,SDXL,scaled,LR,Cardiomegaly,XRV,platt,curtail,50,-0.2261,70.0
+NIH,SDXL,scaled,LR,Cardiomegaly,XRV,platt,exaggerate,50,0.528,92.0
+NIH,SDXL,scaled,LR,Cardiomegaly,XRV,uncal,curtail,50,-0.2139,68.0
+NIH,SDXL,scaled,LR,Cardiomegaly,XRV,uncal,exaggerate,50,0.3968,88.0
+NIH,SDXL,scaled,LR,Consolidation,Ark+,platt,curtail,50,-0.2888,84.0
+NIH,SDXL,scaled,LR,Consolidation,Ark+,platt,exaggerate,50,0.3364,86.0
+NIH,SDXL,scaled,LR,Consolidation,Ark+,uncal,curtail,50,-0.0744,30.0
+NIH,SDXL,scaled,LR,Consolidation,Ark+,uncal,exaggerate,50,0.0131,0.0
+NIH,SDXL,scaled,LR,Consolidation,XRV,buggy,curtail,50,-0.0009,0.0
+NIH,SDXL,scaled,LR,Consolidation,XRV,buggy,exaggerate,50,0.1017,62.0
+NIH,SDXL,scaled,LR,Consolidation,XRV,platt,curtail,50,-0.03,24.0
+NIH,SDXL,scaled,LR,Consolidation,XRV,platt,exaggerate,50,0.612,100.0
+NIH,SDXL,scaled,LR,Consolidation,XRV,uncal,curtail,50,-0.0045,14.0
+NIH,SDXL,scaled,LR,Consolidation,XRV,uncal,exaggerate,50,0.4219,98.0
+NIH,SDXL,scaled,LR,Edema,Ark+,platt,curtail,50,-0.3834,92.0
+NIH,SDXL,scaled,LR,Edema,Ark+,platt,exaggerate,50,0.5942,98.0
+NIH,SDXL,scaled,LR,Edema,Ark+,uncal,curtail,50,-0.0501,12.0
+NIH,SDXL,scaled,LR,Edema,Ark+,uncal,exaggerate,50,0.0102,0.0
+NIH,SDXL,scaled,LR,Edema,XRV,buggy,curtail,50,-0.0442,12.0
+NIH,SDXL,scaled,LR,Edema,XRV,buggy,exaggerate,50,0.1033,74.0
+NIH,SDXL,scaled,LR,Edema,XRV,platt,curtail,50,-0.1696,58.0
+NIH,SDXL,scaled,LR,Edema,XRV,platt,exaggerate,50,0.6986,98.0
+NIH,SDXL,scaled,LR,Edema,XRV,uncal,curtail,50,-0.1809,62.0
+NIH,SDXL,scaled,LR,Edema,XRV,uncal,exaggerate,50,0.4237,84.0
+NIH,SDXL,scaled,LR,Pleural Effusion,Ark+,platt,curtail,50,-0.3701,88.0
+NIH,SDXL,scaled,LR,Pleural Effusion,Ark+,platt,exaggerate,50,0.3609,84.0
+NIH,SDXL,scaled,LR,Pleural Effusion,Ark+,uncal,curtail,50,-0.256,54.0
+NIH,SDXL,scaled,LR,Pleural Effusion,Ark+,uncal,exaggerate,50,0.0275,0.0
+NIH,SDXL,scaled,LR,Pleural Effusion,XRV,buggy,curtail,50,-0.0298,6.0
+NIH,SDXL,scaled,LR,Pleural Effusion,XRV,buggy,exaggerate,50,0.0923,44.0
+NIH,SDXL,scaled,LR,Pleural Effusion,XRV,platt,curtail,50,-0.078,44.0
+NIH,SDXL,scaled,LR,Pleural Effusion,XRV,platt,exaggerate,50,0.5415,96.0
+NIH,SDXL,scaled,LR,Pleural Effusion,XRV,uncal,curtail,50,-0.1278,56.0
+NIH,SDXL,scaled,LR,Pleural Effusion,XRV,uncal,exaggerate,50,0.3817,94.0
+NIH,SDXL,scaled,MD,Atelectasis,Ark+,platt,curtail,50,-0.5171,96.0
+NIH,SDXL,scaled,MD,Atelectasis,Ark+,platt,exaggerate,50,0.2281,66.0
+NIH,SDXL,scaled,MD,Atelectasis,Ark+,uncal,curtail,50,-0.2531,72.0
+NIH,SDXL,scaled,MD,Atelectasis,Ark+,uncal,exaggerate,50,0.0261,10.0
+NIH,SDXL,scaled,MD,Atelectasis,XRV,buggy,curtail,50,-0.0069,0.0
+NIH,SDXL,scaled,MD,Atelectasis,XRV,buggy,exaggerate,50,0.0688,36.0
+NIH,SDXL,scaled,MD,Atelectasis,XRV,platt,curtail,50,-0.0333,16.0
+NIH,SDXL,scaled,MD,Atelectasis,XRV,platt,exaggerate,50,0.3649,88.0
+NIH,SDXL,scaled,MD,Atelectasis,XRV,uncal,curtail,50,-0.0285,20.0
+NIH,SDXL,scaled,MD,Atelectasis,XRV,uncal,exaggerate,50,0.2834,76.0
+NIH,SDXL,scaled,MD,Cardiomegaly,Ark+,platt,curtail,50,-0.4576,94.0
+NIH,SDXL,scaled,MD,Cardiomegaly,Ark+,platt,exaggerate,50,0.1299,64.0
+NIH,SDXL,scaled,MD,Cardiomegaly,Ark+,uncal,curtail,50,-0.0814,28.0
+NIH,SDXL,scaled,MD,Cardiomegaly,Ark+,uncal,exaggerate,50,0.0022,0.0
+NIH,SDXL,scaled,MD,Cardiomegaly,XRV,buggy,curtail,50,-0.0481,10.0
+NIH,SDXL,scaled,MD,Cardiomegaly,XRV,buggy,exaggerate,50,0.0476,16.0
+NIH,SDXL,scaled,MD,Cardiomegaly,XRV,platt,curtail,50,-0.2142,72.0
+NIH,SDXL,scaled,MD,Cardiomegaly,XRV,platt,exaggerate,50,0.3521,90.0
+NIH,SDXL,scaled,MD,Cardiomegaly,XRV,uncal,curtail,50,-0.1991,66.0
+NIH,SDXL,scaled,MD,Cardiomegaly,XRV,uncal,exaggerate,50,0.1942,68.0
+NIH,SDXL,scaled,MD,Consolidation,Ark+,platt,curtail,50,-0.4247,88.0
+NIH,SDXL,scaled,MD,Consolidation,Ark+,platt,exaggerate,50,0.2912,80.0
+NIH,SDXL,scaled,MD,Consolidation,Ark+,uncal,curtail,50,-0.0817,32.0
+NIH,SDXL,scaled,MD,Consolidation,Ark+,uncal,exaggerate,50,0.0114,0.0
+NIH,SDXL,scaled,MD,Consolidation,XRV,buggy,curtail,50,-0.0122,2.0
+NIH,SDXL,scaled,MD,Consolidation,XRV,buggy,exaggerate,50,0.0887,54.0
+NIH,SDXL,scaled,MD,Consolidation,XRV,platt,curtail,50,-0.1137,44.0
+NIH,SDXL,scaled,MD,Consolidation,XRV,platt,exaggerate,50,0.5235,96.0
+NIH,SDXL,scaled,MD,Consolidation,XRV,uncal,curtail,50,-0.0512,18.0
+NIH,SDXL,scaled,MD,Consolidation,XRV,uncal,exaggerate,50,0.3656,88.0
+NIH,SDXL,scaled,MD,Edema,Ark+,platt,curtail,50,-0.524,94.0
+NIH,SDXL,scaled,MD,Edema,Ark+,platt,exaggerate,50,0.3703,92.0
+NIH,SDXL,scaled,MD,Edema,Ark+,uncal,curtail,50,-0.052,12.0
+NIH,SDXL,scaled,MD,Edema,Ark+,uncal,exaggerate,50,0.0049,0.0
+NIH,SDXL,scaled,MD,Edema,XRV,buggy,curtail,50,-0.0292,8.0
+NIH,SDXL,scaled,MD,Edema,XRV,buggy,exaggerate,50,0.0252,14.0
+NIH,SDXL,scaled,MD,Edema,XRV,platt,curtail,50,-0.1087,44.0
+NIH,SDXL,scaled,MD,Edema,XRV,platt,exaggerate,50,0.3714,76.0
+NIH,SDXL,scaled,MD,Edema,XRV,uncal,curtail,50,-0.1198,48.0
+NIH,SDXL,scaled,MD,Edema,XRV,uncal,exaggerate,50,0.1025,24.0
+NIH,SDXL,scaled,MD,Pleural Effusion,Ark+,platt,curtail,50,-0.501,90.0
+NIH,SDXL,scaled,MD,Pleural Effusion,Ark+,platt,exaggerate,50,0.4151,88.0
+NIH,SDXL,scaled,MD,Pleural Effusion,Ark+,uncal,curtail,50,-0.2663,56.0
+NIH,SDXL,scaled,MD,Pleural Effusion,Ark+,uncal,exaggerate,50,0.0462,10.0
+NIH,SDXL,scaled,MD,Pleural Effusion,XRV,buggy,curtail,50,-0.0297,4.0
+NIH,SDXL,scaled,MD,Pleural Effusion,XRV,buggy,exaggerate,50,0.0891,52.0
+NIH,SDXL,scaled,MD,Pleural Effusion,XRV,platt,curtail,50,-0.0791,42.0
+NIH,SDXL,scaled,MD,Pleural Effusion,XRV,platt,exaggerate,50,0.5342,94.0
+NIH,SDXL,scaled,MD,Pleural Effusion,XRV,uncal,curtail,50,-0.1279,54.0
+NIH,SDXL,scaled,MD,Pleural Effusion,XRV,uncal,exaggerate,50,0.3667,92.0
+NIH,SDXL,unscaled,LR,Atelectasis,Ark+,platt,curtail,50,-0.436,94.0
+NIH,SDXL,unscaled,LR,Atelectasis,Ark+,platt,exaggerate,50,0.0761,42.0
+NIH,SDXL,unscaled,LR,Atelectasis,Ark+,uncal,curtail,50,-0.24,72.0
+NIH,SDXL,unscaled,LR,Atelectasis,Ark+,uncal,exaggerate,50,-0.0087,0.0
+NIH,SDXL,unscaled,LR,Atelectasis,XRV,buggy,curtail,50,-0.0055,0.0
+NIH,SDXL,unscaled,LR,Atelectasis,XRV,buggy,exaggerate,50,0.0609,28.0
+NIH,SDXL,unscaled,LR,Atelectasis,XRV,platt,curtail,50,-0.0366,20.0
+NIH,SDXL,unscaled,LR,Atelectasis,XRV,platt,exaggerate,50,0.3205,82.0
+NIH,SDXL,unscaled,LR,Atelectasis,XRV,uncal,curtail,50,-0.0232,14.0
+NIH,SDXL,unscaled,LR,Atelectasis,XRV,uncal,exaggerate,50,0.2507,72.0
+NIH,SDXL,unscaled,LR,Cardiomegaly,Ark+,platt,curtail,50,-0.4076,90.0
+NIH,SDXL,unscaled,LR,Cardiomegaly,Ark+,platt,exaggerate,50,0.0891,40.0
+NIH,SDXL,unscaled,LR,Cardiomegaly,Ark+,uncal,curtail,50,-0.0804,28.0
+NIH,SDXL,unscaled,LR,Cardiomegaly,Ark+,uncal,exaggerate,50,0.0009,0.0
+NIH,SDXL,unscaled,LR,Cardiomegaly,XRV,buggy,curtail,50,-0.0508,16.0
+NIH,SDXL,unscaled,LR,Cardiomegaly,XRV,buggy,exaggerate,50,0.0497,10.0
+NIH,SDXL,unscaled,LR,Cardiomegaly,XRV,platt,curtail,50,-0.2235,68.0
+NIH,SDXL,unscaled,LR,Cardiomegaly,XRV,platt,exaggerate,50,0.3589,90.0
+NIH,SDXL,unscaled,LR,Cardiomegaly,XRV,uncal,curtail,50,-0.2099,68.0
+NIH,SDXL,unscaled,LR,Cardiomegaly,XRV,uncal,exaggerate,50,0.2025,72.0
+NIH,SDXL,unscaled,LR,Consolidation,Ark+,platt,curtail,50,-0.2635,70.0
+NIH,SDXL,unscaled,LR,Consolidation,Ark+,platt,exaggerate,50,0.1541,68.0
+NIH,SDXL,unscaled,LR,Consolidation,Ark+,uncal,curtail,50,-0.069,24.0
+NIH,SDXL,unscaled,LR,Consolidation,Ark+,uncal,exaggerate,50,0.0044,0.0
+NIH,SDXL,unscaled,LR,Consolidation,XRV,buggy,curtail,50,0.0027,0.0
+NIH,SDXL,unscaled,LR,Consolidation,XRV,buggy,exaggerate,50,0.0729,30.0
+NIH,SDXL,unscaled,LR,Consolidation,XRV,platt,curtail,50,0.0046,6.0
+NIH,SDXL,unscaled,LR,Consolidation,XRV,platt,exaggerate,50,0.4147,98.0
+NIH,SDXL,unscaled,LR,Consolidation,XRV,uncal,curtail,50,0.0104,0.0
+NIH,SDXL,unscaled,LR,Consolidation,XRV,uncal,exaggerate,50,0.2993,92.0
+NIH,SDXL,unscaled,LR,Edema,Ark+,platt,curtail,50,-0.3581,88.0
+NIH,SDXL,unscaled,LR,Edema,Ark+,platt,exaggerate,50,0.3383,94.0
+NIH,SDXL,unscaled,LR,Edema,Ark+,uncal,curtail,50,-0.0492,12.0
+NIH,SDXL,unscaled,LR,Edema,Ark+,uncal,exaggerate,50,0.0043,0.0
+NIH,SDXL,unscaled,LR,Edema,XRV,buggy,curtail,50,-0.0239,0.0
+NIH,SDXL,unscaled,LR,Edema,XRV,buggy,exaggerate,50,0.0442,22.0
+NIH,SDXL,unscaled,LR,Edema,XRV,platt,curtail,50,-0.072,32.0
+NIH,SDXL,unscaled,LR,Edema,XRV,platt,exaggerate,50,0.4942,96.0
+NIH,SDXL,unscaled,LR,Edema,XRV,uncal,curtail,50,-0.0983,42.0
+NIH,SDXL,unscaled,LR,Edema,XRV,uncal,exaggerate,50,0.1798,46.0
+NIH,SDXL,unscaled,LR,Pleural Effusion,Ark+,platt,curtail,50,-0.3101,84.0
+NIH,SDXL,unscaled,LR,Pleural Effusion,Ark+,platt,exaggerate,50,0.1303,72.0
+NIH,SDXL,unscaled,LR,Pleural Effusion,Ark+,uncal,curtail,50,-0.2413,54.0
+NIH,SDXL,unscaled,LR,Pleural Effusion,Ark+,uncal,exaggerate,50,0.0062,2.0
+NIH,SDXL,unscaled,LR,Pleural Effusion,XRV,buggy,curtail,50,-0.0255,2.0
+NIH,SDXL,unscaled,LR,Pleural Effusion,XRV,buggy,exaggerate,50,0.0551,26.0
+NIH,SDXL,unscaled,LR,Pleural Effusion,XRV,platt,curtail,50,-0.0705,28.0
+NIH,SDXL,unscaled,LR,Pleural Effusion,XRV,platt,exaggerate,50,0.3826,90.0
+NIH,SDXL,unscaled,LR,Pleural Effusion,XRV,uncal,curtail,50,-0.1096,42.0
+NIH,SDXL,unscaled,LR,Pleural Effusion,XRV,uncal,exaggerate,50,0.2256,62.0
+NIH,SDXL,unscaled,MD,Atelectasis,Ark+,platt,curtail,50,-0.392,86.0
+NIH,SDXL,unscaled,MD,Atelectasis,Ark+,platt,exaggerate,50,0.1641,54.0
+NIH,SDXL,unscaled,MD,Atelectasis,Ark+,uncal,curtail,50,-0.2217,70.0
+NIH,SDXL,unscaled,MD,Atelectasis,Ark+,uncal,exaggerate,50,0.0278,10.0
+NIH,SDXL,unscaled,MD,Atelectasis,XRV,buggy,curtail,50,-0.0052,0.0
+NIH,SDXL,unscaled,MD,Atelectasis,XRV,buggy,exaggerate,50,0.0454,16.0
+NIH,SDXL,unscaled,MD,Atelectasis,XRV,platt,curtail,50,-0.027,10.0
+NIH,SDXL,unscaled,MD,Atelectasis,XRV,platt,exaggerate,50,0.2414,68.0
+NIH,SDXL,unscaled,MD,Atelectasis,XRV,uncal,curtail,50,-0.0218,10.0
+NIH,SDXL,unscaled,MD,Atelectasis,XRV,uncal,exaggerate,50,0.1863,56.0
+NIH,SDXL,unscaled,MD,Cardiomegaly,Ark+,platt,curtail,50,-0.3762,94.0
+NIH,SDXL,unscaled,MD,Cardiomegaly,Ark+,platt,exaggerate,50,0.0606,24.0
+NIH,SDXL,unscaled,MD,Cardiomegaly,Ark+,uncal,curtail,50,-0.0794,28.0
+NIH,SDXL,unscaled,MD,Cardiomegaly,Ark+,uncal,exaggerate,50,0.0019,0.0
+NIH,SDXL,unscaled,MD,Cardiomegaly,XRV,buggy,curtail,50,-0.0444,8.0
+NIH,SDXL,unscaled,MD,Cardiomegaly,XRV,buggy,exaggerate,50,0.0348,12.0
+NIH,SDXL,unscaled,MD,Cardiomegaly,XRV,platt,curtail,50,-0.1971,62.0
+NIH,SDXL,unscaled,MD,Cardiomegaly,XRV,platt,exaggerate,50,0.2744,82.0
+NIH,SDXL,unscaled,MD,Cardiomegaly,XRV,uncal,curtail,50,-0.1833,58.0
+NIH,SDXL,unscaled,MD,Cardiomegaly,XRV,uncal,exaggerate,50,0.1419,42.0
+NIH,SDXL,unscaled,MD,Consolidation,Ark+,platt,curtail,50,-0.3334,80.0
+NIH,SDXL,unscaled,MD,Consolidation,Ark+,platt,exaggerate,50,0.2292,78.0
+NIH,SDXL,unscaled,MD,Consolidation,Ark+,uncal,curtail,50,-0.0758,30.0
+NIH,SDXL,unscaled,MD,Consolidation,Ark+,uncal,exaggerate,50,0.0086,0.0
+NIH,SDXL,unscaled,MD,Consolidation,XRV,buggy,curtail,50,-0.0081,0.0
+NIH,SDXL,unscaled,MD,Consolidation,XRV,buggy,exaggerate,50,0.0686,24.0
+NIH,SDXL,unscaled,MD,Consolidation,XRV,platt,curtail,50,-0.0766,30.0
+NIH,SDXL,unscaled,MD,Consolidation,XRV,platt,exaggerate,50,0.3894,90.0
+NIH,SDXL,unscaled,MD,Consolidation,XRV,uncal,curtail,50,-0.0339,6.0
+NIH,SDXL,unscaled,MD,Consolidation,XRV,uncal,exaggerate,50,0.2814,86.0
+NIH,SDXL,unscaled,MD,Edema,Ark+,platt,curtail,50,-0.2946,90.0
+NIH,SDXL,unscaled,MD,Edema,Ark+,platt,exaggerate,50,0.2184,60.0
+NIH,SDXL,unscaled,MD,Edema,Ark+,uncal,curtail,50,-0.0477,12.0
+NIH,SDXL,unscaled,MD,Edema,Ark+,uncal,exaggerate,50,0.0027,0.0
+NIH,SDXL,unscaled,MD,Edema,XRV,buggy,curtail,50,-0.0215,0.0
+NIH,SDXL,unscaled,MD,Edema,XRV,buggy,exaggerate,50,0.0195,10.0
+NIH,SDXL,unscaled,MD,Edema,XRV,platt,curtail,50,-0.0729,32.0
+NIH,SDXL,unscaled,MD,Edema,XRV,platt,exaggerate,50,0.2346,56.0
+NIH,SDXL,unscaled,MD,Edema,XRV,uncal,curtail,50,-0.0883,38.0
+NIH,SDXL,unscaled,MD,Edema,XRV,uncal,exaggerate,50,0.0793,20.0
+NIH,SDXL,unscaled,MD,Pleural Effusion,Ark+,platt,curtail,50,-0.3048,78.0
+NIH,SDXL,unscaled,MD,Pleural Effusion,Ark+,platt,exaggerate,50,0.3405,86.0
+NIH,SDXL,unscaled,MD,Pleural Effusion,Ark+,uncal,curtail,50,-0.2274,56.0
+NIH,SDXL,unscaled,MD,Pleural Effusion,Ark+,uncal,exaggerate,50,0.0361,10.0
+NIH,SDXL,unscaled,MD,Pleural Effusion,XRV,buggy,curtail,50,-0.0267,4.0
+NIH,SDXL,unscaled,MD,Pleural Effusion,XRV,buggy,exaggerate,50,0.0756,42.0
+NIH,SDXL,unscaled,MD,Pleural Effusion,XRV,platt,curtail,50,-0.0831,34.0
+NIH,SDXL,unscaled,MD,Pleural Effusion,XRV,platt,exaggerate,50,0.4786,92.0
+NIH,SDXL,unscaled,MD,Pleural Effusion,XRV,uncal,curtail,50,-0.1143,46.0
+NIH,SDXL,unscaled,MD,Pleural Effusion,XRV,uncal,exaggerate,50,0.3104,80.0

@@ -1,0 +1,51 @@
+backbone,conv,method,pathology,inter_chex_nih,random_baseline
+AE,na,LR,Cardiomegaly,0.2037,0.0266
+AE,na,LR,Edema,0.0274,0.0112
+AE,na,LR,Consolidation,0.0417,0.007
+AE,na,LR,Atelectasis,0.0853,-0.01
+AE,na,LR,Pleural Effusion,0.0585,-0.0073
+AE,na,MD,Cardiomegaly,0.6553,0.036
+AE,na,MD,Edema,0.5558,0.0325
+AE,na,MD,Consolidation,0.7343,0.0221
+AE,na,MD,Atelectasis,0.3511,0.003
+AE,na,MD,Pleural Effusion,0.6746,0.0074
+SD,scaled,LR,Cardiomegaly,0.1016,0.0031
+SD,scaled,LR,Edema,-0.0119,0.0003
+SD,scaled,LR,Consolidation,0.0337,0.004
+SD,scaled,LR,Atelectasis,0.0089,-0.0043
+SD,scaled,LR,Pleural Effusion,0.0552,0.0157
+SD,scaled,MD,Cardiomegaly,0.5477,-0.0081
+SD,scaled,MD,Edema,0.2777,-0.0021
+SD,scaled,MD,Consolidation,0.5793,0.0005
+SD,scaled,MD,Atelectasis,0.1549,-0.0035
+SD,scaled,MD,Pleural Effusion,0.6131,0.0028
+SD,unscaled,LR,Cardiomegaly,0.1015,0.0031
+SD,unscaled,LR,Edema,-0.0131,0.0001
+SD,unscaled,LR,Consolidation,0.0324,0.0038
+SD,unscaled,LR,Atelectasis,0.0099,-0.0042
+SD,unscaled,LR,Pleural Effusion,0.0551,0.0155
+SD,unscaled,MD,Cardiomegaly,0.5477,-0.0081
+SD,unscaled,MD,Edema,0.2777,-0.0021
+SD,unscaled,MD,Consolidation,0.5793,0.0005
+SD,unscaled,MD,Atelectasis,0.1549,-0.0035
+SD,unscaled,MD,Pleural Effusion,0.6131,0.0028
+SDXL,scaled,LR,Cardiomegaly,0.0831,0.0005
+SDXL,scaled,LR,Edema,0.0197,0.0089
+SDXL,scaled,LR,Consolidation,0.0595,0.0111
+SDXL,scaled,LR,Atelectasis,0.0177,-0.0041
+SDXL,scaled,LR,Pleural Effusion,0.0599,-0.0048
+SDXL,scaled,MD,Cardiomegaly,0.5316,-0.0017
+SDXL,scaled,MD,Edema,0.2174,-0.0011
+SDXL,scaled,MD,Consolidation,0.5096,0.0032
+SDXL,scaled,MD,Atelectasis,0.1218,-0.0034
+SDXL,scaled,MD,Pleural Effusion,0.5313,-0.0034
+SDXL,unscaled,LR,Cardiomegaly,0.0804,-0.0003
+SDXL,unscaled,LR,Edema,0.0203,0.0087
+SDXL,unscaled,LR,Consolidation,0.0641,0.0105
+SDXL,unscaled,LR,Atelectasis,0.0169,-0.004
+SDXL,unscaled,LR,Pleural Effusion,0.0599,-0.0048
+SDXL,unscaled,MD,Cardiomegaly,0.5316,-0.0017
+SDXL,unscaled,MD,Edema,0.2174,-0.0011
+SDXL,unscaled,MD,Consolidation,0.5096,0.0032
+SDXL,unscaled,MD,Atelectasis,0.1218,-0.0034
+SDXL,unscaled,MD,Pleural Effusion,0.5313,-0.0034
