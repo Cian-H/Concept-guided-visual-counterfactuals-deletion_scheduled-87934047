@@ -8,7 +8,7 @@ and image metrics to CSV; a second script derives summary tables and figures.
 - Backbones: `AE` (TorchXRayVision ResNet autoencoder), `SD` (SD-1.5 VAE), `SDXL` (SDXL VAE)
 - Conventions: latent `scaled` vs `unscaled` (AE: `na`)
 - CAV methods: `LR` (logistic coefficient), `MD` (class mean-difference)
-- Classifiers: XRV DenseNet, Ark+ SwinL (logits saved; probability variants derived offline)
+- Classifiers: XRV DenseNet, Ark+ SwinL
 - Datasets: CheXpert, NIH ChestX-ray14
 - Pathologies: Cardiomegaly, Edema, Consolidation, Atelectasis, Pleural Effusion
 
@@ -96,7 +96,7 @@ results/figs/         PNG figures
 |------|----------|
 | `t_rawP_curves.csv` | mean/SE P(target) per α. Columns: `dataset, backbone, conv, method, pathology, src_class, classifier, calibration, alpha, P_mean, P_se, n` |
 | `t_cfr_full.csv` | per-cell CFR/CPS. Columns: `dataset, backbone, conv, method, pathology, classifier, calibration, direction, N, CPS, CFR` (CFR — classifier flip rate %; CPS — classifier probability shift) |
-| `t_cfr_summary.csv` | CFR/CPS averaged over pathologies. Columns: `dataset, backbone, conv, method, classifier, calibration, direction, CFR_mean, CPS_mean, N_path` |
+| `t_cfr_summary.csv` | summary rows per dataset/backbone/conv/method/classifier/calibration/direction (pathologies collapsed). Columns: `dataset, backbone, conv, method, classifier, calibration, direction, CFR_mean, CPS_mean, N_path` |
 | `t_calibrated_agreement.csv` | per-cell Platt ΔP by classifier/direction plus boolean `agree_curtail`/`agree_exaggerate` |
 | `t_realimage_separability.csv` | real-image `xrv_auroc`, `ark_auroc`, and pos−neg `gap_*` per probability variant |
 | `t_calibration_params.csv` | per-(classifier, dataset, pathology) `a, b, T_only, nll_raw, nll_platt, nll_temp, post_Ppos, post_Pneg` |
