@@ -1,6 +1,6 @@
-# Concept-guided CXR counterfactual evaluation — reproduction pack
+# On the Evaluation of Concept-Guided Generation of Visual Counterfactual Explanations in Medical Imaging
 
-Reproduction pack for a re-evaluation of concept-guided visual counterfactuals
+Code and reference results for evaluating concept-guided visual counterfactuals
 on chest X-rays. The harness fully crosses **3 backbones × 2 latent conventions
 × 2 CAV methods × 2 classifiers × 2 datasets** and writes per-source edit logits
 and image metrics to CSV; a second script derives summary tables and figures.
@@ -12,12 +12,10 @@ and image metrics to CSV; a second script derives summary tables and figures.
 - Datasets: CheXpert, NIH ChestX-ray14
 - Pathologies: Cardiomegaly, Edema, Consolidation, Atelectasis, Pleural Effusion
 
-## Attribution & license
+## Authors
 
-Original final-year project: **Eoin Cummins** and **Sean Patrick Goggin**
-(BSc Data Science, CSC1108), supervised by **Alessandra Mileo**, Dublin City
-University. This repository is the supervising lab's corrected re-evaluation of
-that work. Released under the MIT License (see `LICENSE`).
+<!-- DEANONYMIZE: this is the ONLY identifying line in the README — remove or redact before the anonymized submission -->
+Eoin Cummins and Sean Patrick Goggin, supervised by Bulat Maksudov and Alessandra Mileo.
 
 ## Install
 
@@ -64,9 +62,9 @@ Subset any axis for quick runs, e.g.
 `--backbones SD --convs scaled --pathologies Cardiomegaly --M 4`. Each phase
 checkpoints to its output file, so reruns skip completed work.
 
-`results/` in this repo is the committed reference output of the commands above.
-Without a GPU you can regenerate every table and figure from the committed
-`results/raw/` using just the final `analyze.py` command above.
+The committed `results/` is the reference output of the commands above. Without
+a GPU you can regenerate every table and figure from the committed `results/raw/`
+using just the final `analyze.py` command above.
 
 ## Layout
 
