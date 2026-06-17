@@ -51,9 +51,9 @@ python scripts/sweep.py --M 50 --phases cavs,calib,response,stability \
   --chexpert-root /data/chexpert --nih-root /data/nih_raw \
   --ark-weights /path/to/Ark+SwinL768_ChestX-ray14_ft.pth.tar --out results/raw
 
-# image metrics (M=20, reuses the M=50 CAVs): FRD + IoU
+# image metrics (M=20, reuses the M=50 CAVs): FRD (both datasets) + IoU (NIH)
 python scripts/sweep.py --M 20 --phases frd,iou \
-  --nih-root /data/nih_raw \
+  --chexpert-root /data/chexpert --nih-root /data/nih_raw \
   --ark-weights /path/to/Ark+SwinL768_ChestX-ray14_ft.pth.tar --out results/raw
 
 # tables + figures (CPU; reads results/raw/, writes results/tables + results/figs)
