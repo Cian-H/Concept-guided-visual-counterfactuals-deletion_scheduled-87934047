@@ -1,0 +1,17 @@
+--extra-index-url https://download.pytorch.org/whl/cu124
+torch
+torchvision
+torchxrayvision
+timm
+diffusers
+transformers
+accelerate
+scikit-learn
+pandas
+numpy
+Pillow
+matplotlib
+scipy
+# FRD phase only:
+frd-score
+git+https://github.com/AIM-Harvard/pyradiomics.git@master
