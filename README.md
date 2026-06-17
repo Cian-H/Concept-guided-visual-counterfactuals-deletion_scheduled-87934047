@@ -14,8 +14,7 @@ and image metrics to CSV; a second script derives summary tables and figures.
 
 ## Authors
 
-<!-- DEANONYMIZE: this is the ONLY identifying line in the README — remove or redact before the anonymized submission -->
-Eoin Cummins and Sean Patrick Goggin, supervised by Bulat Maksudov and Alessandra Mileo.
+Omitted for anonymous review.
 
 ## Install
 
