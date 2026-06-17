@@ -35,10 +35,11 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import log_loss
 
 # ---------------------------------------------------------------- config
-CHEX = "/data/chexpert/CheXpert-v1.0-small"
-NIH_IMG, NIH_CSV = "/data/nih_raw", "/data/nih_raw/Data_Entry_2017_v2020.csv"
-NIH_BBOX = "src/Metrics/NIH/BBox_List_2017.csv"
-ARK_W = "/data/ark_weights/Ark+SwinL768_ChestX-ray14_ft.pth.tar"
+# Dataset/weight locations are set from CLI args (env fallback) right after
+# parse_args(); see below. This default points at the bundled NIH bbox file,
+# resolved relative to the repo root so it works from any working directory.
+_REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+_DEFAULT_NIH_BBOX = os.path.join(_REPO_ROOT, "metadata", "BBox_List_2017.csv")
 PATHOLOGY = {
     "Cardiomegaly":     dict(chex="Cardiomegaly",     nih="Cardiomegaly", txrv=10, ark="Cardiomegaly"),
     "Edema":            dict(chex="Edema",            nih="Edema",        txrv=4,  ark="Edema"),
@@ -70,7 +71,27 @@ ap.add_argument("--bs_xrv", type=int, default=64)
 ap.add_argument("--bs_ark", type=int, default=12)
 ap.add_argument("--seed", type=int, default=0)
 ap.add_argument("--force", action="store_true")
+ap.add_argument("--chexpert-root", default=os.environ.get("CXR_CHEXPERT_ROOT", "/data/chexpert"),
+                help="dir CONTAINING CheXpert-v1.0-small/ (CSVs + image tree)")
+ap.add_argument("--nih-root", default=os.environ.get("CXR_NIH_ROOT", "/data/nih_raw"),
+                help="dir of NIH ChestX-ray14 images")
+ap.add_argument("--nih-csv", default=os.environ.get("CXR_NIH_CSV", ""),
+                help="NIH metadata CSV (default: {nih-root}/Data_Entry_2017_v2020.csv)")
+ap.add_argument("--nih-bbox", default=os.environ.get("CXR_NIH_BBOX", _DEFAULT_NIH_BBOX),
+                help="NIH BBox_List_2017.csv (default: bundled metadata/ copy)")
+ap.add_argument("--ark-weights", default=os.environ.get("CXR_ARK_WEIGHTS",
+                "/data/ark_weights/Ark+SwinL768_ChestX-ray14_ft.pth.tar"),
+                help="Ark+ SwinL768 checkpoint (.pth.tar)")
+ap.add_argument("--torch-home", default=os.environ.get("TORCH_HOME", "/tmp/torch_cache"),
+                help="torch hub cache dir for auto-downloaded XRV/VAE weights")
 A = ap.parse_args()
+os.environ["TORCH_HOME"] = A.torch_home
+CHEX_ROOT = A.chexpert_root
+CHEX = os.path.join(CHEX_ROOT, "CheXpert-v1.0-small")
+NIH_IMG = A.nih_root
+NIH_CSV = A.nih_csv or os.path.join(NIH_IMG, "Data_Entry_2017_v2020.csv")
+NIH_BBOX = A.nih_bbox
+ARK_W = A.ark_weights
 DATASETS = A.datasets.split(","); BACKBONES = A.backbones.split(","); METHODS = A.methods.split(",")
 PATHS = [p for p in PATHOLOGY if p in A.pathologies.split(",")]; PHASES = A.phases.split(",")
 dev = "cuda" if torch.cuda.is_available() else "cpu"
@@ -207,7 +228,7 @@ def build_pool(dataset, pathology, label):
         sub = df[df[c["chex"]] == (1.0 if label else 0.0)].copy()
         sub["patient"] = sub["Path"].map(_chex_patient)
         sub = sub.drop_duplicates("patient").sample(frac=1, random_state=A.seed)
-        pool = [os.path.join("/data/chexpert", p) for p in sub["Path"]]
+        pool = [os.path.join(CHEX_ROOT, p) for p in sub["Path"]]
     else:
         has = nih_df()["Finding Labels"].str.contains(c["nih"], regex=False)
         sub = (nih_df()[has] if label else nih_df()[~has]).copy()
@@ -375,6 +396,10 @@ if __name__ == "__main__":
     print("config:", dict(datasets=DATASETS, backbones=BACKBONES, methods=METHODS, pathologies=PATHS,
                           phases=PHASES, M=A.M, n_cav=A.n_cav, n_calib=A.n_calib,
                           bs=(A.bs_enc, A.bs_dec, A.bs_xrv, A.bs_ark), out=A.out))
+    _needs_ark = {"calib", "response", "frd", "iou"}
+    if _needs_ark.intersection(PHASES) and not os.path.exists(ARK_W):
+        raise SystemExit(f"Ark+ weights not found: {ARK_W}\n"
+                         f"Set --ark-weights / $CXR_ARK_WEIGHTS (see DATA.md).")
     fns = dict(cavs=phase_cavs, calib=phase_calib, response=phase_response,
                frd=phase_frd, iou=phase_iou, stability=phase_stability)
     for ph in PHASES:
